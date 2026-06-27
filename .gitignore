@@ -1,0 +1,14 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local artifacts that are large / regenerated.
+# NOTE: we DO commit final recordings + transcripts for the submission;
+# this ignores scratch/work-in-progress copies only.
+*.tmp
+.DS_Store
