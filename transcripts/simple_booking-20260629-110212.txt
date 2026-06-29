@@ -1,0 +1,40 @@
+Scenario: simple_booking
+Recorded: 20260629-110212
+
+[0:00] PGAI AGENT: Esta llamada puede ser grabada para propósitos de calidad y entrenamiento.
+[0:06] PATIENT (bot): Hey, uh, hello—I'm calling to
+[0:08] PGAI AGENT: Thanks for calling Pivot Point Orthopedics.
+[0:08] PATIENT (bot): Hey, yeah,
+[0:10] PATIENT (bot): Oh, um,
+[0:10] PGAI AGENT: part of pretty good AI.
+[0:10] PGAI AGENT: Am I speaking with Paul?
+[0:12] PATIENT (bot): Yeah, this is Paul. I'm calling about my right knee—been having some issues and want to set up an appointment.
+[0:21] PGAI AGENT: Please provide your date of birth.
+[0:23] PATIENT (bot): Sure, it’s February 15th, 1988.
+[0:31] PGAI AGENT: Thanks, Paul.
+[0:31] PGAI AGENT: Is this a new issue with your right knee or are you following up on a previous visit?
+[0:31] PATIENT (bot): No problem.
+[0:36] PATIENT (bot): Yeah, it's a new issue, started a few weeks ago after a run.
+[0:42] PGAI AGENT: Would you like to schedule a general office visit to have your right knee checked out?
+[0:46] PATIENT (bot): Yeah, that’s what I’m looking to do. What times do you have open?
+[0:54] PGAI AGENT: Do you have a preferred provider or are you open to seeing anyone available?
+[0:58] PATIENT (bot): I’m open to anyone available, just want to get it checked out soon.
+[1:13] PGAI AGENT: There are no open appointments available this week.
+[1:13] PGAI AGENT: Would you like me to check for openings next week or is there a specific date that works best for you?
+[1:13] PATIENT (bot): Alright,
+[1:18] PATIENT (bot): Yeah, could you check what’s open early next week?
+[1:28] PGAI AGENT: I found a few openings for early next week.
+[1:34] PGAI AGENT: On Tuesday, July 7th, you can see Dr. Zbigniew Lukoski at 2 p.m. or 3 p.m.
+[1:37] PGAI AGENT: or Dr. Kelly Noble at 10 a.m.
+[1:37] PGAI AGENT: Do any of these times work for you?
+[1:37] PATIENT (bot): Alright,
+[1:39] PATIENT (bot): Yeah, let me go with Dr. Kelly Noble at 10 a.m. on Tuesday.
+[1:55] PGAI AGENT: Your appointment is set for Tuesday, July 7th at 10 a.m. with Dr. Kelly Noble at Pivot Point Orthopedics.
+[2:01] PGAI AGENT: Please bring your photo ID, insurance card, a list of your current medications, and any imaging discs you have.
+[2:01] PGAI AGENT: Is there anything else you'd like help with?
+[2:01] PATIENT (bot): Got it.
+[2:03] PATIENT (bot): No, I think that covers it. Thanks a lot.
+[2:11] PGAI AGENT: You're all set, Paul.
+[2:13] PGAI AGENT: We look forward to seeing you at your appointment.
+[2:13] PGAI AGENT: Have a great day.
+[2:14] PATIENT (bot): Alright, thanks, you too. Take care.

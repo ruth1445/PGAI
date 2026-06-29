@@ -1,0 +1,216 @@
+{
+  "scenario": "simple_booking",
+  "recorded": "20260629-103444",
+  "turns": [
+    {
+      "t": "0:06",
+      "speaker": "PATIENT (bot)",
+      "text": "Hey, yeah, hi."
+    },
+    {
+      "t": "0:06",
+      "speaker": "PGAI AGENT",
+      "text": "Esta llamada puede ser grabada para motivos de calidad y entrenamiento. Para Espa\u00f1ol, oprima el 2."
+    },
+    {
+      "t": "0:08",
+      "speaker": "PGAI AGENT",
+      "text": "Thanks for calling Pivot Point Orthopedics."
+    },
+    {
+      "t": "0:10",
+      "speaker": "PGAI AGENT",
+      "text": "part of pretty good AI."
+    },
+    {
+      "t": "0:10",
+      "speaker": "PGAI AGENT",
+      "text": "Am I speaking with Richard?"
+    },
+    {
+      "t": "0:12",
+      "speaker": "PATIENT (bot)",
+      "text": "Yeah, this is Richard. I'm actually calling 'cause I need to set up an appointment for my right knee."
+    },
+    {
+      "t": "0:19",
+      "speaker": "PGAI AGENT",
+      "text": "Please provide your data first."
+    },
+    {
+      "t": "0:21",
+      "speaker": "PATIENT (bot)",
+      "text": "Sure, it's August 4th, 2000."
+    },
+    {
+      "t": "0:30",
+      "speaker": "PGAI AGENT",
+      "text": "Thanks, Richard."
+    },
+    {
+      "t": "0:30",
+      "speaker": "PGAI AGENT",
+      "text": "Is this appointment for a new issue with your right knee or is it a follow-up for a previous visit?"
+    },
+    {
+      "t": "0:36",
+      "speaker": "PATIENT (bot)",
+      "text": "It's a new issue, started a few weeks ago after a run."
+    },
+    {
+      "t": "0:46",
+      "speaker": "PGAI AGENT",
+      "text": "Would you describe your knee issue as urgent or causing significant pain?"
+    },
+    {
+      "t": "0:46",
+      "speaker": "PGAI AGENT",
+      "text": "Or is it more of a routine concern?"
+    },
+    {
+      "t": "0:48",
+      "speaker": "PATIENT (bot)",
+      "text": "I mean, it aches on the inside and it clicks when I bend it, so it\u2019s definitely bothering me, not just routine."
+    },
+    {
+      "t": "0:59",
+      "speaker": "PGAI AGENT",
+      "text": "Do you have a provider you'd like to see or are you open to the first available?"
+    },
+    {
+      "t": "1:03",
+      "speaker": "PATIENT (bot)",
+      "text": "I\u2019m open to the first available, yeah."
+    },
+    {
+      "t": "1:12",
+      "speaker": "PGAI AGENT",
+      "text": "Let me check for the soonest available appointments for your knee issue."
+    },
+    {
+      "t": "1:12",
+      "speaker": "PGAI AGENT",
+      "text": "One moment."
+    },
+    {
+      "t": "1:13",
+      "speaker": "PATIENT (bot)",
+      "text": "Sure, no problem."
+    },
+    {
+      "t": "1:29",
+      "speaker": "PGAI AGENT",
+      "text": "What would you like to do?"
+    },
+    {
+      "t": "1:29",
+      "speaker": "PGAI AGENT",
+      "text": "It appears you already have an appointment scheduled for this same me issue. If you'd like, I can help you reschedule or cancel that appointment, or I can connect you to a team member for further help."
+    },
+    {
+      "t": "1:31",
+      "speaker": "PATIENT (bot)",
+      "text": "Wait, I don\u2019t think I have anything booked. Are you sure there\u2019s an appointment on file?"
+    },
+    {
+      "t": "1:34",
+      "speaker": "PGAI AGENT",
+      "text": "Take your time. Let me know how you'd like to proceed when you're ready."
+    },
+    {
+      "t": "1:38",
+      "speaker": "PATIENT (bot)",
+      "text": "Yeah, I really just want to get a new appointment set up, 'cause I don\u2019t think I have one."
+    },
+    {
+      "t": "1:43",
+      "speaker": "PGAI AGENT",
+      "text": "Just to clarify, you don't have an appointment yet for this me issue?"
+    },
+    {
+      "t": "1:43",
+      "speaker": "PGAI AGENT",
+      "text": "Would you like me to connect you to a team member to sort this out?"
+    },
+    {
+      "t": "1:46",
+      "speaker": "PATIENT (bot)",
+      "text": "If we can just set up a new appointment right now, that\u2019d be great."
+    },
+    {
+      "t": "1:58",
+      "speaker": "PGAI AGENT",
+      "text": "I'm unable to book a new appointment for this issue because the system shows one already exists."
+    },
+    {
+      "t": "2:03",
+      "speaker": "PGAI AGENT",
+      "text": "I can connect you to a team member who can help sort this out and make sure you get the care you need."
+    },
+    {
+      "t": "2:03",
+      "speaker": "PGAI AGENT",
+      "text": "Would you like me to transfer you now?"
+    },
+    {
+      "t": "2:05",
+      "speaker": "PATIENT (bot)",
+      "text": "Yeah, go ahead and transfer me."
+    },
+    {
+      "t": "2:15",
+      "speaker": "PGAI AGENT",
+      "text": "I can't book a new appointment for your right knee through the system right now."
+    },
+    {
+      "t": "2:18",
+      "speaker": "PGAI AGENT",
+      "text": "I can connect you to our patient support team for help."
+    },
+    {
+      "t": "2:21",
+      "speaker": "PGAI AGENT",
+      "text": "Please stay on the line while I transfer you."
+    },
+    {
+      "t": "2:21",
+      "speaker": "PATIENT (bot)",
+      "text": "Alright,"
+    },
+    {
+      "t": "2:24",
+      "speaker": "PGAI AGENT",
+      "text": "connecting you to a representative."
+    },
+    {
+      "t": "2:24",
+      "speaker": "PGAI AGENT",
+      "text": "Please wait."
+    },
+    {
+      "t": "2:25",
+      "speaker": "PATIENT (bot)",
+      "text": "Sure, I\u2019ll hold on."
+    },
+    {
+      "t": "2:25",
+      "speaker": "PGAI AGENT",
+      "text": "BEEP"
+    },
+    {
+      "t": "2:28",
+      "speaker": "PGAI AGENT",
+      "text": "Hello, you've reached the Pretty Good AI test line."
+    },
+    {
+      "t": "2:28",
+      "speaker": "PGAI AGENT",
+      "text": "Goodbye"
+    },
+    {
+      "t": "2:29",
+      "speaker": "PATIENT (bot)",
+      "text": "Alright, thanks. Take care."
+    }
+  ]
+}

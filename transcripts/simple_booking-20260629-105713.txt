@@ -1,0 +1,63 @@
+Scenario: simple_booking
+Recorded: 20260629-105713
+
+[0:06] PATIENT (bot): Hey, uh, hi,
+[0:06] PGAI AGENT: Esta llamada puede ser grabada para propósitos de calidad y entrenamiento. Para Español, oprima el 2.
+[0:08] PGAI AGENT: Thanks for calling Pivot Point Orthopedics.
+[0:08] PATIENT (bot): Yeah
+[0:10] PGAI AGENT: part of pretty good AI.
+[0:10] PGAI AGENT: Am I speaking with Paul?
+[0:12] PATIENT (bot): Yeah, that's me. What can I help with?
+[0:18] PGAI AGENT: please provide your date of birth.
+[0:20] PATIENT (bot): Sure, it's February 15th, 1988.
+[0:29] PATIENT (bot): Yeah, no problem.
+[0:29] PGAI AGENT: Great, Paul.
+[0:32] PGAI AGENT: I can help with general questions about the clinic.
+[0:32] PATIENT (bot): Oh,
+[0:33] PATIENT (bot): Yeah, actually, I'm calling
+[0:33] PGAI AGENT: appointments.
+[0:36] PATIENT (bot): I’m trying to get an appointment for
+[0:36] PGAI AGENT: patient cases, medication refills, and insurance.
+[0:36] PGAI AGENT: What would you like to do today?
+[0:38] PATIENT (bot): I’d like to book a first appointment for my right knee.
+[0:48] PGAI AGENT: We'd like to schedule your first visit for your Right Me.
+[0:48] PGAI AGENT: Just to confirm, is this your first time visiting our clinic?
+[0:48] PATIENT (bot): Yeah, that's
+[0:51] PATIENT (bot): Yeah, first time here.
+[0:53] PGAI AGENT: Bye.
+[0:54] PATIENT (bot): So, my knee started aching a few weeks ago after a run. It’s on the inside, clicks when I bend it, and feels like it might give out going down stairs.
+[1:01] PGAI AGENT: Do you have a specific provider you'd like to see or are you open to the first available?
+[1:05] PATIENT (bot): I’m open to first available, yeah.
+[1:15] PATIENT (bot): Alright,
+[1:15] PGAI AGENT: There are no openings for a new patient consultation this week.
+[1:15] PGAI AGENT: Would you like to look for the next available appointment after July 6th?
+[1:19] PATIENT (bot): Yeah, that works. What’s open right after the 6th?
+[1:31] PATIENT (bot): Alright,
+[1:31] PGAI AGENT: The first openings are on Thursday, July 9th with Dewey Hauser.
+[1:33] PGAI AGENT: I have times a 12.
+[1:33] PATIENT (bot): Could we do something
+[1:36] PATIENT (bot): Let me go with
+[1:36] PGAI AGENT: 12 45 and 1 30 p.m.
+[1:36] PGAI AGENT: Would any of those work for you?
+[1:37] PATIENT (bot): Let’s go with 12:45.
+[1:55] PGAI AGENT: Your first appointment for your right knee is set for Thursday, July 9th at 1245 p.m. with Dr. Judy Hauser at Pivot Point Orthopedics.
+[1:55] PATIENT (bot): Got it.
+[1:56] PGAI AGENT: Please bring your photo ID.
+[1:58] PGAI AGENT: Insurance card.
+[2:00] PGAI AGENT: a list of your current medications.
+[2:02] PATIENT (bot): Alright, I can
+[2:02] PGAI AGENT: and any imaging discs you have.
+[2:02] PGAI AGENT: Would you like a text with these details?
+[2:05] PATIENT (bot): Yeah, that’d be helpful, thanks.
+[2:13] PGAI AGENT: You'll get a text with your appointment details soon.
+[2:13] PGAI AGENT: Is there anything else I can help you with today?
+[2:13] PATIENT (bot): Great, I’ll
+[2:15] PATIENT (bot): No, I think that covers it. Thanks a lot.
+[2:22] PATIENT (bot): Alright, thanks. Talk to you
+[2:22] PGAI AGENT: You're all set, Paul.
+[2:22] PGAI AGENT: We look forward to seeing you.
+[2:23] PATIENT (bot): Take care, bye.
+[2:28] PGAI AGENT: Take care, Paul.
+[2:28] PGAI AGENT: Goodbye
+[2:29] PATIENT (bot): Bye now.
+[2:33] PATIENT (bot): Bye.

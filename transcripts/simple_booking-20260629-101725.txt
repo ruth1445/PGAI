@@ -1,0 +1,58 @@
+Scenario: simple_booking
+Recorded: 20260629-101725
+
+[0:01] PGAI AGENT: Esta llamada puede ser grabada para propósitos de calidad y entrenamiento. Para Español, oprima el 2.
+[0:06] PATIENT (bot): Hey, uh, hi there. I'm calling to set up an appointment for my right knee.
+[0:07] PGAI AGENT: Thank you
+[0:08] PATIENT (bot): Yeah, it’s been bothering me for a few weeks, especially on the inside.
+[0:15] PGAI AGENT: Hi.
+[0:15] PGAI AGENT: Can you tell me a bit more about what's been bothering you?
+[0:17] PATIENT (bot): Sure, so it started after a run, and now it aches on the inside, it clicks when I bend it, and sometimes it feels like it might give out when I go down stairs.
+[0:31] PGAI AGENT: Thanks for sharing those details.
+[0:31] PGAI AGENT: Which part of your body is hurting? Your knee, ankle, or somewhere else?
+[0:31] PATIENT (bot): No problem.
+[0:35] PATIENT (bot): It's my right knee that's hurting.
+[0:41] PATIENT (bot): Yeah, so
+[0:41] PGAI AGENT: Understood.
+[0:44] PGAI AGENT: Would you like to create a demo patient profile so I can help you further?
+[0:44] PGAI AGENT: I just need your first and last name.
+[0:44] PATIENT (bot): Oh, uh,
+[0:46] PATIENT (bot): Right, it's Richard Feynman.
+[1:02] PGAI AGENT: Your patient profile is set up and your date of birth is July 4, 2000 for demo purposes.
+[1:02] PGAI AGENT: How may I help you today?
+[1:03] PATIENT (bot): Actually, my date of birth is August 4th, 2000. Just want to make sure that’s right in there.
+[1:13] PGAI AGENT: Thanks for letting me know
+[1:16] PGAI AGENT: I have your date of birth as August 4th, 2000.
+[1:16] PGAI AGENT: Is that correct?
+[1:18] PATIENT (bot): Yeah, that's correct.
+[1:22] PGAI AGENT: Would you like to schedule an appointment to have your right knee checked out?
+[1:25] PATIENT (bot): Yeah, that’s exactly what I’m looking to do.
+[1:37] PGAI AGENT: It sounds like you need an appointment for knee pain that started after running and has lasted a few weeks.
+[1:37] PGAI AGENT: Does that sound right?
+[1:38] PATIENT (bot): Yeah, exactly. It’s been aching and clicking, so I want to get it checked out.
+[1:50] PGAI AGENT: Do you have a specific provider you'd like to see?
+[1:50] PGAI AGENT: or are you hoping to the next available appointment.
+[1:50] PATIENT (bot): I’m not really
+[1:53] PATIENT (bot): I’m good with the next available.
+[2:10] PGAI AGENT: We have openings tomorrow, Tuesday, with your primary providers at Pivot Point Orthopedics.
+[2:10] PATIENT (bot): Okay, what
+[2:12] PGAI AGENT: Would you prefer morning or afternoon?
+[2:12] PGAI AGENT: I can suggest a few specific times.
+[2:15] PATIENT (bot): Morning would be better for me.
+[2:22] PGAI AGENT: Here are a few morning options for tomorrow.
+[2:22] PATIENT (bot): Alright,
+[2:25] PGAI AGENT: You can see Dr. Zignu-Lukosky at 815.
+[2:28] PGAI AGENT: 830 or 845 a.m.
+[2:28] PGAI AGENT: Would any of these work for you?
+[2:30] PATIENT (bot): Let’s go with 8:30.
+[2:46] PGAI AGENT: Your appointment is set for Tuesday, June 30th at 8.30 a.m. with Dr. Zbigniew Lukoski at Pivot Point Orthopedics.
+[2:47] PATIENT (bot): Got it.
+[2:53] PGAI AGENT: Please bring your photo ID, insurance card, a list of your current medications, and any imaging discs, if you have them.
+[2:53] PGAI AGENT: Is there anything else you need help with?
+[2:53] PATIENT (bot): Alright, thanks.
+[2:55] PATIENT (bot): No, I’m all set. Thanks a lot, take care.
+[3:03] PGAI AGENT: You're all set for your appointment.
+[3:03] PGAI AGENT: Take care, and I hope your knee feels better soon.
+[3:06] PATIENT (bot): Appreciate that. Bye now.
+[3:10] PGAI AGENT: Goodbye
+[3:11] PATIENT (bot): Bye.
