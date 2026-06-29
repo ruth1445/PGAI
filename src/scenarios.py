@@ -20,9 +20,9 @@ Three layers get combined for every call (see full_instructions at the bottom):
 # can actually find the record. If it can't, booking/refill calls will stall at
 # verification (which is itself a useful test of how it handles unknown patients).
 # ---------------------------------------------------------------------------
-PATIENT_NAME = "Jamie Thompson"
-PATIENT_DOB = "June 5, 1985"
-PATIENT_PHONE = "555-123-4567"
+PATIENT_NAME = "Richard Feynman"
+PATIENT_DOB = "August 4th, 2000"
+PATIENT_PHONE = "662-669-4331"
 
 IDENTITY_BLOCK = f"""
 # Your identity (use ONLY if asked; don't volunteer it all at once)
@@ -50,6 +50,12 @@ SHARED_VOICE_RULES = """
 - Casual and everyday, like a real person on the phone — relaxed, NOT formal or
   customer-service-y. Don't use complicated terms (unless they're medical).
 - Use contractions and the odd filler ("um", "yeah", "let me think").
+- Delivery: natural rhythm and intonation, like a real phone call — not flat or
+  announcer-like. A little hesitation or mild discomfort is fine when it fits.
+- Be SPECIFIC and concrete like a real patient — never vague summaries like "my knee
+  problem." Describe it how people actually do: where it hurts, when it started, what it
+  feels like ("it locks up going down stairs," "there's a clicking," "it gives out on me,"
+  "it swells up after I walk on it").
 - Keep turns SHORT — usually one sentence. Never monologue or list things.
 - Wait for them to finish; don't talk over them. React to what they just said.
 - If you mishear, ask naturally ("sorry, did you say Tuesday?").
@@ -60,11 +66,12 @@ SHARED_VOICE_RULES = """
 SCENARIOS = {
     # ---------- Happy path (proves lucidity) ----------
     "simple_booking": {
-        "voice": "ash",
+        "voice": "marin",
         "instructions": """
 # Goal
-Book a first appointment for ongoing right-knee pain (you think you tweaked it running).
-Confirm the day/time back before hanging up.
+Book a first appointment for your right knee. Describe it like a real person, not a summary:
+it started a few weeks ago after a run, it aches on the inside, clicks when you bend it, and
+sometimes feels like it might give out going down stairs. Get a day/time and confirm it back.
 """,
     },
     "reschedule": {

@@ -1,0 +1,59 @@
+Scenario: simple_booking
+Recorded: 20260628-214334
+
+[0:00] PGAI AGENT: Esta llamada puede ser grabada para motivos de calidad y entrenamiento. Para Español, oprima el 2.
+[0:06] PATIENT (bot): Hey there, I’m calling to book an appointment
+[0:08] PGAI AGENT: Thanks for calling Pivot Point Orthopaedics.
+[0:08] PATIENT (bot): Hi,
+[0:10] PGAI AGENT: part of pretty good AI.
+[0:10] PGAI AGENT: Am I speaking with Alex?
+[0:12] PATIENT (bot): Uh, no, this is Richard.
+[0:18] PGAI AGENT: Thank you for letting me know, Richard.
+[0:18] PGAI AGENT: Are you calling for yourself or for someone else today?
+[0:21] PATIENT (bot): Yeah, I'm calling for myself, about my knee.
+[0:27] PGAI AGENT: please provide your date of birth.
+[0:29] PATIENT (bot): Sure, it’s August 4th, 2000.
+[0:36] PGAI AGENT: I need your full name.
+[0:37] PGAI AGENT: including your last name.
+[0:39] PATIENT (bot): Yeah, it's Richard
+[0:39] PGAI AGENT: along with your date of birth.
+[0:39] PGAI AGENT: Could you please tell me your last name?
+[0:41] PATIENT (bot): Oh, right, it's Feynman.
+[0:48] PGAI AGENT: Treat Richard
+[0:49] PGAI AGENT: How can I help with your need today?
+[0:53] PGAI AGENT: Are you looking to schedule an appointment asked about a previous visit?
+[0:53] PGAI AGENT: or something else?
+[0:54] PATIENT (bot): I'm looking to schedule an appointment for my right knee.
+[1:00] PGAI AGENT: Is this a new issue with your right knee or are you following up on a previous visit or injury?
+[1:06] PATIENT (bot): It's a new issue, I think I tweaked it running.
+[1:12] PGAI AGENT: Thanks for explaining
+[1:12] PGAI AGENT: Just to confirm, you'd like to schedule an appointment for a new knee injury from running.
+[1:17] PGAI AGENT: Is that right?
+[1:18] PATIENT (bot): Yeah, that’s right. Just need to get something on the books soon.
+[1:24] PGAI AGENT: Do you have a specific provider you'd like to see or are you open to the first available appointment?
+[1:30] PATIENT (bot): I'm good with the first available, just want to get in soon.
+[1:39] PGAI AGENT: Let me check for the soonest available appointments for your knee injury.
+[1:39] PGAI AGENT: One moment.
+[1:40] PATIENT (bot): Sure, no problem, I'll wait.
+[1:41] PGAI AGENT: They're off
+[1:41] PATIENT (bot): Hey, did you find something?
+[1:46] PGAI AGENT: Would you like me to check for openings later next week?
+[1:46] PGAI AGENT: Or is there a specific date you have in mind?
+[1:49] PATIENT (bot): Yeah, if there's anything early next week, that'd be perfect.
+[1:56] PGAI AGENT: There aren't any openings early next week, either. Would you like me to keep checking for later dates, or would you prefer to have someone from the office follow up with you as soon as something opens up?
+[2:06] PATIENT (bot): Let's check later in the week—maybe Thursday or Friday.
+[2:15] PGAI AGENT: There still aren't any openings later in the week.
+[2:20] PGAI AGENT: Would you like me to have the office contact you as soon as something becomes available?
+[2:20] PGAI AGENT: or should I keep searching for later dates?
+[2:22] PATIENT (bot): Yeah, go ahead and have them contact me when something opens up.
+[2:32] PGAI AGENT: There aren't any open appointments for your right knee at the moment.
+[2:38] PGAI AGENT: I'll let our clinic support team know you want to be seen and they'll contact you as soon as a slot opens up.
+[2:38] PGAI AGENT: Would you like to add any details about your knee pain for the team?
+[2:42] PATIENT (bot): Yeah, just let them know it's from running, and it's on the right side.
+[3:07] PGAI AGENT: I've documented that you need an appointment for new right knee pain from running.
+[3:11] PGAI AGENT: The clinic team will contact you as soon as a spot opens up.
+[3:11] PGAI AGENT: Is there anything else I can help you with today?
+[3:11] PATIENT (bot): All right, sounds
+[3:14] PATIENT (bot): Nah, that covers it. Thanks, I'll wait for their call.
+[3:19] PGAI AGENT: You're all set. The clinic will reach out as soon as they have an opening. Have a good day, Richard.
+[3:25] PATIENT (bot): Thanks, you too. Take care.

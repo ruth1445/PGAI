@@ -64,13 +64,15 @@ async def media_stream(twilio_ws: WebSocket):
     call_start = time.time()
     stream_sid = {"value": None}
 
-    def stamp() -> str:
-        elapsed = int(time.time() - call_start)
-        return f"{elapsed // 60}:{elapsed % 60:02d}"
+    # Track when each side STARTED speaking, so the transcript is ordered by speech
+    # time rather than by when transcription happens to finish (Whisper lags on the
+    # agent side, which otherwise prints answers above their questions).
+    timing = {"agent_start": 0.0, "bot_start": None}
 
-    def log_line(speaker: str, text: str):
+    def log_line(speaker: str, text: str, when: float):
         if text and text.strip():
-            transcript.append({"t": stamp(), "speaker": speaker, "text": text.strip()})
+            transcript.append({"sec": max(when - call_start, 0.0),
+                               "speaker": speaker, "text": text.strip()})
 
     url = f"wss://api.openai.com/v1/realtime?model={config.REALTIME_MODEL}"
     headers = {
@@ -131,6 +133,8 @@ async def media_stream(twilio_ws: WebSocket):
 
                     # Our bot's audio -> back to the phone call. (GA event name.)
                     if rtype == "response.output_audio.delta" and stream_sid["value"]:
+                        if timing["bot_start"] is None:
+                            timing["bot_start"] = time.time()
                         await twilio_ws.send_text(json.dumps({
                             "event": "media",
                             "streamSid": stream_sid["value"],
@@ -139,18 +143,23 @@ async def media_stream(twilio_ws: WebSocket):
 
                     # What our bot SAID (the patient). (GA event name.)
                     elif rtype == "response.output_audio_transcript.done":
-                        log_line("PATIENT (bot)", response.get("transcript", ""))
+                        log_line("PATIENT (bot)", response.get("transcript", ""),
+                                 timing["bot_start"] or time.time())
+                        timing["bot_start"] = None
 
                     # What our bot HEARD (the PGAI agent).
                     elif rtype == "conversation.item.input_audio_transcription.completed":
-                        log_line("PGAI AGENT", response.get("transcript", ""))
+                        log_line("PGAI AGENT", response.get("transcript", ""),
+                                 timing["agent_start"] or time.time())
 
-                    # Barge-in: caller started talking -> stop our playback.
-                    elif rtype == "input_audio_buffer.speech_started" and stream_sid["value"]:
-                        await twilio_ws.send_text(json.dumps({
-                            "event": "clear",
-                            "streamSid": stream_sid["value"],
-                        }))
+                    # Barge-in: caller started talking -> note start time + stop playback.
+                    elif rtype == "input_audio_buffer.speech_started":
+                        timing["agent_start"] = time.time()
+                        if stream_sid["value"]:
+                            await twilio_ws.send_text(json.dumps({
+                                "event": "clear",
+                                "streamSid": stream_sid["value"],
+                            }))
             except Exception as e:
                 print("openai_to_twilio ended:", e)
 
@@ -172,12 +181,22 @@ async def media_stream(twilio_ws: WebSocket):
 def _save_transcript(scenario: str, transcript: list[dict]):
     ts = datetime.now().strftime("%Y%m%d-%H%M%S")
     base = TRANSCRIPT_DIR / f"{scenario}-{ts}"
+
+    # Order by when each side started speaking, then format mm:ss.
+    ordered = sorted(transcript, key=lambda x: x.get("sec", 0.0))
+
+    def fmt(sec: float) -> str:
+        s = int(sec)
+        return f"{s // 60}:{s % 60:02d}"
+
+    turns = [{"t": fmt(l["sec"]), "speaker": l["speaker"], "text": l["text"]} for l in ordered]
+
     # Human-readable
     with open(f"{base}.txt", "w") as f:
         f.write(f"Scenario: {scenario}\nRecorded: {ts}\n\n")
-        for line in transcript:
-            f.write(f"[{line['t']}] {line['speaker']}: {line['text']}\n")
+        for l in turns:
+            f.write(f"[{l['t']}] {l['speaker']}: {l['text']}\n")
     # Machine-readable (for analysis/analyze_transcripts.py)
     with open(f"{base}.json", "w") as f:
-        json.dump({"scenario": scenario, "recorded": ts, "turns": transcript}, f, indent=2)
+        json.dump({"scenario": scenario, "recorded": ts, "turns": turns}, f, indent=2)
     print(f"Saved transcript: {base}.txt")

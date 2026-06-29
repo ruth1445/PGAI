@@ -1,0 +1,41 @@
+Scenario: simple_booking
+Recorded: 20260628-212215
+
+[0:06] PATIENT (bot): Hi, I’m calling about booking an appointment for some ongoing right-knee pain I’ve got.
+[0:08] PGAI AGENT: This call may be recorded for quality and training purposes.
+[0:08] PATIENT (bot): Sure, no problem.
+[0:10] PGAI AGENT: Thanks for calling Pivot Point Orthopaedics.
+[0:12] PATIENT (bot): Oh, no, I’m actually just following up on my appointment. Can I go ahead and book that?
+[0:13] PGAI AGENT: part of pretty good AI. Am I speaking with Alex?
+[0:23] PATIENT (bot): Sure, it’s August 4th, 2000.
+[0:23] PGAI AGENT: Can you please provide your date of birth?
+[0:36] PATIENT (bot): Sure, it's Richard Feynman.
+[0:37] PGAI AGENT: I'll need your full name along with your date of birth to look up your information. Could you please provide your first and last name?
+[0:44] PGAI AGENT: Thanks for clarifying.
+[0:45] PATIENT (bot): Yeah, that’s correct.
+[0:46] PGAI AGENT: I see this number is linked to Richard.
+[0:49] PATIENT (bot): Yes, that’s me. Great, let’s go ahead and book it.
+[0:51] PGAI AGENT: Is that you? If so, I can help you book your appointment now.
+[1:00] PATIENT (bot): No, I think I need the first appointment, for the right-knee pain.
+[1:01] PGAI AGENT: Are you looking to schedule a follow-up consultation for your next visit?
+[1:09] PATIENT (bot): Sure, now
+[1:11] PGAI AGENT: Thanks for confirming.
+[1:14] PATIENT (bot): I'm open to the first available, as long as it’s soon.
+[1:14] PGAI AGENT: Do you have a specific provider you'd like to see or are you open to the first available?
+[1:29] PATIENT (bot): Yeah, that’d be great, please check the soonest one after that.
+[1:30] PGAI AGENT: There aren't any openings for a new patient consultation in the next week. Would you like me to check for the soonest available appointment after that?
+[1:42] PGAI AGENT: The soonest openings are on Thursday, July 9th with Doogie Houser.
+[1:46] PGAI AGENT: I have 11.15 a.m., 12 p.m., or 12.45 p.m. available.
+[1:48] PATIENT (bot): I think 11:15 a.m. would be best.
+[1:48] PGAI AGENT: Would any of these work for you?
+[2:00] PGAI AGENT: Your appointment is set for Thursday, July 9th at 1115 a.m.
+[2:04] PGAI AGENT: with Dr. Dougie Hauser at Pivot Point Orthopedics.
+[2:11] PGAI AGENT: Please bring your photo ID, insurance card, a list of your current medications, and any imaging discs you have.
+[2:13] PATIENT (bot): No, that’s all for now—thanks so much!
+[2:13] PGAI AGENT: Is there anything else you need help with?
+[2:20] PGAI AGENT: You're all set for your appointment.
+[2:21] PATIENT (bot): Nope
+[2:22] PGAI AGENT: if you need anything else.
+[2:24] PGAI AGENT: Just give us a call.
+[2:24] PATIENT (bot): Thanks, you too!
+[2:25] PGAI AGENT: Have a great day!

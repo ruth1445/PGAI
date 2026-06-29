@@ -1,0 +1,326 @@
+{
+  "scenario": "simple_booking",
+  "recorded": "20260628-222151",
+  "turns": [
+    {
+      "t": "0:06",
+      "speaker": "PGAI AGENT",
+      "text": "Esta llamada puede ser grabada para prop\u00f3sitos de calidad y entrenamiento. Para Espa\u00f1ol, oprima el 2."
+    },
+    {
+      "t": "0:06",
+      "speaker": "PATIENT (bot)",
+      "text": "Hey, uh,"
+    },
+    {
+      "t": "0:08",
+      "speaker": "PGAI AGENT",
+      "text": "Thanks for calling Pivot Point Orthopaedics."
+    },
+    {
+      "t": "0:10",
+      "speaker": "PGAI AGENT",
+      "text": "part of pretty good AI."
+    },
+    {
+      "t": "0:10",
+      "speaker": "PGAI AGENT",
+      "text": "Am I speaking with Alex?"
+    },
+    {
+      "t": "0:12",
+      "speaker": "PATIENT (bot)",
+      "text": "Uh, no, this is Richard. I'm calling about my knee."
+    },
+    {
+      "t": "0:21",
+      "speaker": "PGAI AGENT",
+      "text": "Thanks for letting me know, Richard."
+    },
+    {
+      "t": "0:21",
+      "speaker": "PGAI AGENT",
+      "text": "Are you calling on behalf of Alex or is this about your own care?"
+    },
+    {
+      "t": "0:25",
+      "speaker": "PATIENT (bot)",
+      "text": "No, this is for me, for my own knee."
+    },
+    {
+      "t": "0:30",
+      "speaker": "PGAI AGENT",
+      "text": "Please provide your date of birth."
+    },
+    {
+      "t": "0:32",
+      "speaker": "PATIENT (bot)",
+      "text": "Sure, it's August 4th, 2000."
+    },
+    {
+      "t": "0:42",
+      "speaker": "PGAI AGENT",
+      "text": "I need your full name, including your last name, along with your date of birth."
+    },
+    {
+      "t": "0:42",
+      "speaker": "PGAI AGENT",
+      "text": "Could you please provide your last name?"
+    },
+    {
+      "t": "0:44",
+      "speaker": "PATIENT (bot)",
+      "text": "Yeah, it's Feynman. First name Richard, last name Feynman."
+    },
+    {
+      "t": "0:57",
+      "speaker": "PGAI AGENT",
+      "text": "Thanks, Richard."
+    },
+    {
+      "t": "0:59",
+      "speaker": "PGAI AGENT",
+      "text": "How can I help with your need today?"
+    },
+    {
+      "t": "0:59",
+      "speaker": "PGAI AGENT",
+      "text": "Are you looking to schedule an appointment, ask about a previous visit, or something else?"
+    },
+    {
+      "t": "1:03",
+      "speaker": "PATIENT (bot)",
+      "text": "Yeah, I need to schedule an appointment for my right knee."
+    },
+    {
+      "t": "1:08",
+      "speaker": "PGAI AGENT",
+      "text": "Is this a new issue with your knee or are you following up on a previous visit or injury?"
+    },
+    {
+      "t": "1:14",
+      "speaker": "PATIENT (bot)",
+      "text": "This is a new issue, started a few weeks ago after a run."
+    },
+    {
+      "t": "1:20",
+      "speaker": "PGAI AGENT",
+      "text": "Would you describe your knee issue as urgent or causing significant pain, or is it more of a routine concern you'd like checked out?"
+    },
+    {
+      "t": "1:27",
+      "speaker": "PATIENT (bot)",
+      "text": "It's aching on the inside and it clicks when I bend it, so I really want to get it checked out soon."
+    },
+    {
+      "t": "1:35",
+      "speaker": "PGAI AGENT",
+      "text": "Do you have a specific provider you'd like to see or are you open to the first available appointment?"
+    },
+    {
+      "t": "1:41",
+      "speaker": "PATIENT (bot)",
+      "text": "I'm open to the first available, whatever gets me in soon."
+    },
+    {
+      "t": "1:50",
+      "speaker": "PGAI AGENT",
+      "text": "There are no open appointments available this week."
+    },
+    {
+      "t": "1:50",
+      "speaker": "PGAI AGENT",
+      "text": "Would you like me to look for openings later next week, or do you have a specific date in mind?"
+    },
+    {
+      "t": "1:56",
+      "speaker": "PATIENT (bot)",
+      "text": "Let\u2019s check what you\u2019ve got early next week, if possible."
+    },
+    {
+      "t": "2:05",
+      "speaker": "PGAI AGENT",
+      "text": "There are still no open appointments early next week."
+    },
+    {
+      "t": "2:07",
+      "speaker": "PGAI AGENT",
+      "text": "Would you like me to keep searching further out?"
+    },
+    {
+      "t": "2:07",
+      "speaker": "PGAI AGENT",
+      "text": "Or would you prefer to speak with someone from the clinic for help finding a sooner spot?"
+    },
+    {
+      "t": "2:12",
+      "speaker": "PATIENT (bot)",
+      "text": "Let's go ahead and check later in the week, see what's open."
+    },
+    {
+      "t": "2:17",
+      "speaker": "PGAI AGENT",
+      "text": "Thank you."
+    },
+    {
+      "t": "2:17",
+      "speaker": "PATIENT (bot)",
+      "text": "Alright, so can you check for any openings maybe Wednesday or Thursday next week?"
+    },
+    {
+      "t": "2:18",
+      "speaker": "PGAI AGENT",
+      "text": "There are..."
+    },
+    {
+      "t": "2:19",
+      "speaker": "PATIENT (bot)",
+      "text": "Got it. Could you tell me the next available day and time you've got open later next week?"
+    },
+    {
+      "t": "2:27",
+      "speaker": "PGAI AGENT",
+      "text": "Let me check for available appointments later next week."
+    },
+    {
+      "t": "2:30",
+      "speaker": "PATIENT (bot)",
+      "text": "Alright, thanks, I'll hold."
+    },
+    {
+      "t": "2:31",
+      "speaker": "PGAI AGENT",
+      "text": "It looks like you're requesting..."
+    },
+    {
+      "t": "2:33",
+      "speaker": "PATIENT (bot)",
+      "text": "Sorry, could you tell me what days you're seeing open?"
+    },
+    {
+      "t": "2:47",
+      "speaker": "PGAI AGENT",
+      "text": "I don't see the open appointments available right now, even later next week. The clinic team has your request and will contact you as soon as the slot opens up."
+    },
+    {
+      "t": "2:47",
+      "speaker": "PGAI AGENT",
+      "text": "Is there anything else you'd like help with?"
+    },
+    {
+      "t": "2:50",
+      "speaker": "PATIENT (bot)",
+      "text": "So just to confirm, they'll reach out to me once they find a slot?"
+    },
+    {
+      "t": "2:58",
+      "speaker": "PGAI AGENT",
+      "text": "Yes, the clinic team will contact you at your number."
+    },
+    {
+      "t": "3:00",
+      "speaker": "PGAI AGENT",
+      "text": "3 2 9"
+    },
+    {
+      "t": "3:01",
+      "speaker": "PGAI AGENT",
+      "text": "213."
+    },
+    {
+      "t": "3:03",
+      "speaker": "PGAI AGENT",
+      "text": "0 9 7 7."
+    },
+    {
+      "t": "3:03",
+      "speaker": "PGAI AGENT",
+      "text": "as soon as an appointment becomes available."
+    },
+    {
+      "t": "3:06",
+      "speaker": "PATIENT (bot)",
+      "text": "Hang on, that\u2019s not my number. My number on file should be 662-669-4331, right?"
+    },
+    {
+      "t": "3:20",
+      "speaker": "PGAI AGENT",
+      "text": "I have your number as 329-213-0977."
+    },
+    {
+      "t": "3:24",
+      "speaker": "PGAI AGENT",
+      "text": "Would you like the clinic to use 662?"
+    },
+    {
+      "t": "3:26",
+      "speaker": "PGAI AGENT",
+      "text": "669-"
+    },
+    {
+      "t": "3:28",
+      "speaker": "PGAI AGENT",
+      "text": "4331."
+    },
+    {
+      "t": "3:28",
+      "speaker": "PGAI AGENT",
+      "text": "Instead, for the callback."
+    },
+    {
+      "t": "3:30",
+      "speaker": "PATIENT (bot)",
+      "text": "Yeah, let\u2019s use 662-669-4331 for the callback."
+    },
+    {
+      "t": "3:41",
+      "speaker": "PGAI AGENT",
+      "text": "There are no available appointments showing right now."
+    },
+    {
+      "t": "3:48",
+      "speaker": "PGAI AGENT",
+      "text": "I've let our clinic support team know about your request, and they'll get back to you as soon as possible to help schedule your knee appointment."
+    },
+    {
+      "t": "3:48",
+      "speaker": "PGAI AGENT",
+      "text": "Is there anything else I can help you with today?"
+    },
+    {
+      "t": "3:50",
+      "speaker": "PATIENT (bot)",
+      "text": "No, that covers it. Thanks, I\u2019ll wait for their call."
+    },
+    {
+      "t": "3:57",
+      "speaker": "PATIENT (bot)",
+      "text": "Alright, thanks, take care."
+    },
+    {
+      "t": "3:58",
+      "speaker": "PGAI AGENT",
+      "text": "You're all set"
+    },
+    {
+      "t": "3:58",
+      "speaker": "PGAI AGENT",
+      "text": "Thanks."
+    },
+    {
+      "t": "3:59",
+      "speaker": "PATIENT (bot)",
+      "text": "Bye now."
+    },
+    {
+      "t": "4:02",
+      "speaker": "PGAI AGENT",
+      "text": "Goodbye. Richard, take care."
+    },
+    {
+      "t": "4:05",
+      "speaker": "PATIENT (bot)",
+      "text": "You too, bye."
+    }
+  ]
+}

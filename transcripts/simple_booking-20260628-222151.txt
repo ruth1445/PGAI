@@ -1,0 +1,67 @@
+Scenario: simple_booking
+Recorded: 20260628-222151
+
+[0:06] PGAI AGENT: Esta llamada puede ser grabada para propósitos de calidad y entrenamiento. Para Español, oprima el 2.
+[0:06] PATIENT (bot): Hey, uh,
+[0:08] PGAI AGENT: Thanks for calling Pivot Point Orthopaedics.
+[0:10] PGAI AGENT: part of pretty good AI.
+[0:10] PGAI AGENT: Am I speaking with Alex?
+[0:12] PATIENT (bot): Uh, no, this is Richard. I'm calling about my knee.
+[0:21] PGAI AGENT: Thanks for letting me know, Richard.
+[0:21] PGAI AGENT: Are you calling on behalf of Alex or is this about your own care?
+[0:25] PATIENT (bot): No, this is for me, for my own knee.
+[0:30] PGAI AGENT: Please provide your date of birth.
+[0:32] PATIENT (bot): Sure, it's August 4th, 2000.
+[0:42] PGAI AGENT: I need your full name, including your last name, along with your date of birth.
+[0:42] PGAI AGENT: Could you please provide your last name?
+[0:44] PATIENT (bot): Yeah, it's Feynman. First name Richard, last name Feynman.
+[0:57] PGAI AGENT: Thanks, Richard.
+[0:59] PGAI AGENT: How can I help with your need today?
+[0:59] PGAI AGENT: Are you looking to schedule an appointment, ask about a previous visit, or something else?
+[1:03] PATIENT (bot): Yeah, I need to schedule an appointment for my right knee.
+[1:08] PGAI AGENT: Is this a new issue with your knee or are you following up on a previous visit or injury?
+[1:14] PATIENT (bot): This is a new issue, started a few weeks ago after a run.
+[1:20] PGAI AGENT: Would you describe your knee issue as urgent or causing significant pain, or is it more of a routine concern you'd like checked out?
+[1:27] PATIENT (bot): It's aching on the inside and it clicks when I bend it, so I really want to get it checked out soon.
+[1:35] PGAI AGENT: Do you have a specific provider you'd like to see or are you open to the first available appointment?
+[1:41] PATIENT (bot): I'm open to the first available, whatever gets me in soon.
+[1:50] PGAI AGENT: There are no open appointments available this week.
+[1:50] PGAI AGENT: Would you like me to look for openings later next week, or do you have a specific date in mind?
+[1:56] PATIENT (bot): Let’s check what you’ve got early next week, if possible.
+[2:05] PGAI AGENT: There are still no open appointments early next week.
+[2:07] PGAI AGENT: Would you like me to keep searching further out?
+[2:07] PGAI AGENT: Or would you prefer to speak with someone from the clinic for help finding a sooner spot?
+[2:12] PATIENT (bot): Let's go ahead and check later in the week, see what's open.
+[2:17] PGAI AGENT: Thank you.
+[2:17] PATIENT (bot): Alright, so can you check for any openings maybe Wednesday or Thursday next week?
+[2:18] PGAI AGENT: There are...
+[2:19] PATIENT (bot): Got it. Could you tell me the next available day and time you've got open later next week?
+[2:27] PGAI AGENT: Let me check for available appointments later next week.
+[2:30] PATIENT (bot): Alright, thanks, I'll hold.
+[2:31] PGAI AGENT: It looks like you're requesting...
+[2:33] PATIENT (bot): Sorry, could you tell me what days you're seeing open?
+[2:47] PGAI AGENT: I don't see the open appointments available right now, even later next week. The clinic team has your request and will contact you as soon as the slot opens up.
+[2:47] PGAI AGENT: Is there anything else you'd like help with?
+[2:50] PATIENT (bot): So just to confirm, they'll reach out to me once they find a slot?
+[2:58] PGAI AGENT: Yes, the clinic team will contact you at your number.
+[3:00] PGAI AGENT: 3 2 9
+[3:01] PGAI AGENT: 213.
+[3:03] PGAI AGENT: 0 9 7 7.
+[3:03] PGAI AGENT: as soon as an appointment becomes available.
+[3:06] PATIENT (bot): Hang on, that’s not my number. My number on file should be 662-669-4331, right?
+[3:20] PGAI AGENT: I have your number as 329-213-0977.
+[3:24] PGAI AGENT: Would you like the clinic to use 662?
+[3:26] PGAI AGENT: 669-
+[3:28] PGAI AGENT: 4331.
+[3:28] PGAI AGENT: Instead, for the callback.
+[3:30] PATIENT (bot): Yeah, let’s use 662-669-4331 for the callback.
+[3:41] PGAI AGENT: There are no available appointments showing right now.
+[3:48] PGAI AGENT: I've let our clinic support team know about your request, and they'll get back to you as soon as possible to help schedule your knee appointment.
+[3:48] PGAI AGENT: Is there anything else I can help you with today?
+[3:50] PATIENT (bot): No, that covers it. Thanks, I’ll wait for their call.
+[3:57] PATIENT (bot): Alright, thanks, take care.
+[3:58] PGAI AGENT: You're all set
+[3:58] PGAI AGENT: Thanks.
+[3:59] PATIENT (bot): Bye now.
+[4:02] PGAI AGENT: Goodbye. Richard, take care.
+[4:05] PATIENT (bot): You too, bye.

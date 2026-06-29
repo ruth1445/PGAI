@@ -1,0 +1,196 @@
+{
+  "scenario": "simple_booking",
+  "recorded": "20260628-212215",
+  "turns": [
+    {
+      "t": "0:06",
+      "speaker": "PATIENT (bot)",
+      "text": "Hi, I\u2019m calling about booking an appointment for some ongoing right-knee pain I\u2019ve got."
+    },
+    {
+      "t": "0:08",
+      "speaker": "PGAI AGENT",
+      "text": "This call may be recorded for quality and training purposes."
+    },
+    {
+      "t": "0:08",
+      "speaker": "PATIENT (bot)",
+      "text": "Sure, no problem."
+    },
+    {
+      "t": "0:10",
+      "speaker": "PGAI AGENT",
+      "text": "Thanks for calling Pivot Point Orthopaedics."
+    },
+    {
+      "t": "0:12",
+      "speaker": "PATIENT (bot)",
+      "text": "Oh, no, I\u2019m actually just following up on my appointment. Can I go ahead and book that?"
+    },
+    {
+      "t": "0:13",
+      "speaker": "PGAI AGENT",
+      "text": "part of pretty good AI. Am I speaking with Alex?"
+    },
+    {
+      "t": "0:23",
+      "speaker": "PATIENT (bot)",
+      "text": "Sure, it\u2019s August 4th, 2000."
+    },
+    {
+      "t": "0:23",
+      "speaker": "PGAI AGENT",
+      "text": "Can you please provide your date of birth?"
+    },
+    {
+      "t": "0:36",
+      "speaker": "PATIENT (bot)",
+      "text": "Sure, it's Richard Feynman."
+    },
+    {
+      "t": "0:37",
+      "speaker": "PGAI AGENT",
+      "text": "I'll need your full name along with your date of birth to look up your information. Could you please provide your first and last name?"
+    },
+    {
+      "t": "0:44",
+      "speaker": "PGAI AGENT",
+      "text": "Thanks for clarifying."
+    },
+    {
+      "t": "0:45",
+      "speaker": "PATIENT (bot)",
+      "text": "Yeah, that\u2019s correct."
+    },
+    {
+      "t": "0:46",
+      "speaker": "PGAI AGENT",
+      "text": "I see this number is linked to Richard."
+    },
+    {
+      "t": "0:49",
+      "speaker": "PATIENT (bot)",
+      "text": "Yes, that\u2019s me. Great, let\u2019s go ahead and book it."
+    },
+    {
+      "t": "0:51",
+      "speaker": "PGAI AGENT",
+      "text": "Is that you? If so, I can help you book your appointment now."
+    },
+    {
+      "t": "1:00",
+      "speaker": "PATIENT (bot)",
+      "text": "No, I think I need the first appointment, for the right-knee pain."
+    },
+    {
+      "t": "1:01",
+      "speaker": "PGAI AGENT",
+      "text": "Are you looking to schedule a follow-up consultation for your next visit?"
+    },
+    {
+      "t": "1:09",
+      "speaker": "PATIENT (bot)",
+      "text": "Sure, now"
+    },
+    {
+      "t": "1:11",
+      "speaker": "PGAI AGENT",
+      "text": "Thanks for confirming."
+    },
+    {
+      "t": "1:14",
+      "speaker": "PATIENT (bot)",
+      "text": "I'm open to the first available, as long as it\u2019s soon."
+    },
+    {
+      "t": "1:14",
+      "speaker": "PGAI AGENT",
+      "text": "Do you have a specific provider you'd like to see or are you open to the first available?"
+    },
+    {
+      "t": "1:29",
+      "speaker": "PATIENT (bot)",
+      "text": "Yeah, that\u2019d be great, please check the soonest one after that."
+    },
+    {
+      "t": "1:30",
+      "speaker": "PGAI AGENT",
+      "text": "There aren't any openings for a new patient consultation in the next week. Would you like me to check for the soonest available appointment after that?"
+    },
+    {
+      "t": "1:42",
+      "speaker": "PGAI AGENT",
+      "text": "The soonest openings are on Thursday, July 9th with Doogie Houser."
+    },
+    {
+      "t": "1:46",
+      "speaker": "PGAI AGENT",
+      "text": "I have 11.15 a.m., 12 p.m., or 12.45 p.m. available."
+    },
+    {
+      "t": "1:48",
+      "speaker": "PATIENT (bot)",
+      "text": "I think 11:15 a.m. would be best."
+    },
+    {
+      "t": "1:48",
+      "speaker": "PGAI AGENT",
+      "text": "Would any of these work for you?"
+    },
+    {
+      "t": "2:00",
+      "speaker": "PGAI AGENT",
+      "text": "Your appointment is set for Thursday, July 9th at 1115 a.m."
+    },
+    {
+      "t": "2:04",
+      "speaker": "PGAI AGENT",
+      "text": "with Dr. Dougie Hauser at Pivot Point Orthopedics."
+    },
+    {
+      "t": "2:11",
+      "speaker": "PGAI AGENT",
+      "text": "Please bring your photo ID, insurance card, a list of your current medications, and any imaging discs you have."
+    },
+    {
+      "t": "2:13",
+      "speaker": "PATIENT (bot)",
+      "text": "No, that\u2019s all for now\u2014thanks so much!"
+    },
+    {
+      "t": "2:13",
+      "speaker": "PGAI AGENT",
+      "text": "Is there anything else you need help with?"
+    },
+    {
+      "t": "2:20",
+      "speaker": "PGAI AGENT",
+      "text": "You're all set for your appointment."
+    },
+    {
+      "t": "2:21",
+      "speaker": "PATIENT (bot)",
+      "text": "Nope"
+    },
+    {
+      "t": "2:22",
+      "speaker": "PGAI AGENT",
+      "text": "if you need anything else."
+    },
+    {
+      "t": "2:24",
+      "speaker": "PGAI AGENT",
+      "text": "Just give us a call."
+    },
+    {
+      "t": "2:24",
+      "speaker": "PATIENT (bot)",
+      "text": "Thanks, you too!"
+    },
+    {
+      "t": "2:25",
+      "speaker": "PGAI AGENT",
+      "text": "Have a great day!"
+    }
+  ]
+}
