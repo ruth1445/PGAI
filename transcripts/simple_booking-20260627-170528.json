@@ -1,0 +1,41 @@
+{
+  "scenario": "simple_booking",
+  "recorded": "20260627-170528",
+  "turns": [
+    {
+      "t": "0:06",
+      "speaker": "PATIENT (bot)",
+      "text": "Hi! I\u2019d like to schedule a check-up, if possible."
+    },
+    {
+      "t": "0:06",
+      "speaker": "PGAI AGENT",
+      "text": "What's up?"
+    },
+    {
+      "t": "0:15",
+      "speaker": "PATIENT (bot)",
+      "text": "Sure, just to confirm, are you looking for an appointment next week in the mornings?"
+    },
+    {
+      "t": "0:16",
+      "speaker": "PGAI AGENT",
+      "text": "Awesome. Can you tell me something else?"
+    },
+    {
+      "t": "0:23",
+      "speaker": "PGAI AGENT",
+      "text": "Yes."
+    },
+    {
+      "t": "0:27",
+      "speaker": "PATIENT (bot)",
+      "text": "Got it\u2014 what time in the morning works best for you?"
+    },
+    {
+      "t": "0:28",
+      "speaker": "PGAI AGENT",
+      "text": "I'm looking for an appointment three days from now."
+    }
+  ]
+}

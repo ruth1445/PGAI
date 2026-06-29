@@ -1,0 +1,10 @@
+Scenario: simple_booking
+Recorded: 20260627-170528
+
+[0:06] PATIENT (bot): Hi! I’d like to schedule a check-up, if possible.
+[0:06] PGAI AGENT: What's up?
+[0:15] PATIENT (bot): Sure, just to confirm, are you looking for an appointment next week in the mornings?
+[0:16] PGAI AGENT: Awesome. Can you tell me something else?
+[0:23] PGAI AGENT: Yes.
+[0:27] PATIENT (bot): Got it— what time in the morning works best for you?
+[0:28] PGAI AGENT: I'm looking for an appointment three days from now.

@@ -1,0 +1,31 @@
+Scenario: simple_booking
+Recorded: 20260627-191619
+
+[0:06] PATIENT (bot): Entendido, gracias por la información. Me gustaría agendar una cita para un cheque
+[0:07] PGAI AGENT: Esta llamada puede ser grabada para propósitos de calidad y entrenamiento. Para Español, oprima el 2.
+[0:08] PATIENT (bot): Hi, I’d like
+[0:08] PGAI AGENT: Thanks for calling Pivot Point Orthopaedics.
+[0:11] PGAI AGENT: part of pretty good
+[0:11] PGAI AGENT: AI.
+[0:13] PATIENT (bot): No, I’m not Alex. I’m looking to book a check-up—can you help with that?
+[0:14] PGAI AGENT: Am I speaking with Alex?
+[0:24] PGAI AGENT: I can help with that. Please provide the patient's full name and date of birth.
+[0:24] PATIENT (bot): Sure, it’s Jamie Thompson, born June 5th, 1985.
+[0:37] PATIENT (bot): Yes, that’s correct.
+[0:39] PGAI AGENT: Just to confirm, I have your name as Jamie Thompson and your date of birth as June 5th, 1985.
+[0:39] PGAI AGENT: Is that correct?
+[0:42] PGAI AGENT: If so, could you please spell your first and last name for me?
+[0:43] PATIENT (bot): Sure, it’s J-A-M-I-E for the first name, and Thompson, T-H-O-M-P-S-O-N.
+[0:54] PATIENT (bot): Uh, yeah,
+[0:55] PGAI AGENT: Would you like to use your phone number to look up your record?
+[0:58] PGAI AGENT: If so, please provide the number you have on file with us.
+[1:04] PGAI AGENT: If you're not sure, just confirm your first and last name and date of birth for me one more time.
+[1:05] PATIENT (bot): It's Jamie Thompson, June 5th, 1985.
+[1:18] PGAI AGENT: I can't proceed further right now, but I can make sure our clinic support team follows up with you.
+[1:21] PATIENT (bot): Sure, that’d be great. Yes, please connect me to them.
+[1:22] PGAI AGENT: Would you like me to connect you to our patient support team?
+[1:30] PGAI AGENT: Connecting you to a representative.
+[1:31] PGAI AGENT: Please wait.
+[1:35] PGAI AGENT: Hello, you've reached the Pretty Good AI test line.
+[1:36] PGAI AGENT: Goodbye.
+[1:36] PATIENT (bot): Alright, thanks for your help. Goodbye.

@@ -22,7 +22,7 @@ from fastapi import FastAPI, WebSocket, Request
 from fastapi.responses import HTMLResponse, PlainTextResponse
 
 from . import config
-from .scenarios import full_instructions
+from .scenarios import full_instructions, get_scenario
 
 app = FastAPI()
 
@@ -58,6 +58,7 @@ async def media_stream(twilio_ws: WebSocket):
     await twilio_ws.accept()
     scenario = twilio_ws.query_params.get("scenario", "simple_booking")
     instructions = full_instructions(scenario)
+    voice = get_scenario(scenario).get("voice") or config.REALTIME_VOICE
 
     transcript: list[dict] = []
     call_start = time.time()
@@ -74,23 +75,29 @@ async def media_stream(twilio_ws: WebSocket):
     url = f"wss://api.openai.com/v1/realtime?model={config.REALTIME_MODEL}"
     headers = {
         "Authorization": f"Bearer {config.OPENAI_API_KEY}",
-        "OpenAI-Beta": "realtime=v1",
     }
 
     async with websockets.connect(url, additional_headers=headers) as openai_ws:
-        # Configure the session: audio format Twilio uses (g711 u-law 8kHz),
-        # server-side voice activity detection for natural turn-taking, and
-        # transcription of what we HEAR (= the PGAI agent's speech).
+        # Configure the session (Realtime API GA shape). Audio is G.711 u-law 8kHz
+        # (what Twilio sends), written as {"type": "audio/pcmu"}. Server-side VAD gives
+        # natural turn-taking; transcription logs what we HEAR (the PGAI agent).
         await openai_ws.send(json.dumps({
             "type": "session.update",
             "session": {
-                "turn_detection": {"type": "server_vad"},
-                "input_audio_format": "g711_ulaw",
-                "output_audio_format": "g711_ulaw",
-                "voice": config.REALTIME_VOICE,
+                "type": "realtime",
+                "output_modalities": ["audio"],
                 "instructions": instructions,
-                "modalities": ["text", "audio"],
-                "input_audio_transcription": {"model": "whisper-1"},
+                "audio": {
+                    "input": {
+                        "format": {"type": "audio/pcmu"},
+                        "turn_detection": {"type": "server_vad"},
+                        "transcription": {"model": "whisper-1"},
+                    },
+                    "output": {
+                        "format": {"type": "audio/pcmu"},
+                        "voice": voice,
+                    },
+                },
             },
         }))
 
@@ -122,16 +129,16 @@ async def media_stream(twilio_ws: WebSocket):
                     if rtype in LOG_EVENT_TYPES:
                         print("openai:", rtype, response.get("error", ""))
 
-                    # Our bot's audio -> back to the phone call.
-                    if rtype == "response.audio.delta" and stream_sid["value"]:
+                    # Our bot's audio -> back to the phone call. (GA event name.)
+                    if rtype == "response.output_audio.delta" and stream_sid["value"]:
                         await twilio_ws.send_text(json.dumps({
                             "event": "media",
                             "streamSid": stream_sid["value"],
                             "media": {"payload": response["delta"]},
                         }))
 
-                    # What our bot SAID (the patient).
-                    elif rtype == "response.audio_transcript.done":
+                    # What our bot SAID (the patient). (GA event name.)
+                    elif rtype == "response.output_audio_transcript.done":
                         log_line("PATIENT (bot)", response.get("transcript", ""))
 
                     # What our bot HEARD (the PGAI agent).
@@ -147,9 +154,19 @@ async def media_stream(twilio_ws: WebSocket):
             except Exception as e:
                 print("openai_to_twilio ended:", e)
 
-        await asyncio.gather(twilio_to_openai(), openai_to_twilio())
-
-    _save_transcript(scenario, transcript)
+        twilio_task = asyncio.create_task(twilio_to_openai())
+        openai_task = asyncio.create_task(openai_to_twilio())
+        try:
+            # Finish as soon as EITHER side ends (e.g. the caller hangs up), then
+            # cancel the other — otherwise we hang waiting on the OpenAI socket and
+            # never save the transcript.
+            _, pending = await asyncio.wait(
+                {twilio_task, openai_task}, return_when=asyncio.FIRST_COMPLETED
+            )
+            for task in pending:
+                task.cancel()
+        finally:
+            _save_transcript(scenario, transcript)
 
 
 def _save_transcript(scenario: str, transcript: list[dict]):
