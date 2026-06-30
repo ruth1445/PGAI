@@ -1,0 +1,201 @@
+{
+  "scenario": "pregnancy_imaging",
+  "recorded": "20260629-131645",
+  "turns": [
+    {
+      "t": "0:06",
+      "speaker": "PATIENT (bot)",
+      "text": "Hey, uh,"
+    },
+    {
+      "t": "0:06",
+      "speaker": "PGAI AGENT",
+      "text": "Esta llamada puede ser grabada para motivos de calidad y entrenamiento. Para Espa\u00f1ol, oprima el 2."
+    },
+    {
+      "t": "0:08",
+      "speaker": "PGAI AGENT",
+      "text": "Thanks for calling Pivot Point Orthopedics."
+    },
+    {
+      "t": "0:11",
+      "speaker": "PGAI AGENT",
+      "text": "part of pretty good AI."
+    },
+    {
+      "t": "0:11",
+      "speaker": "PGAI AGENT",
+      "text": "Am I speaking with Paul?"
+    },
+    {
+      "t": "0:13",
+      "speaker": "PATIENT (bot)",
+      "text": "Oh, uh, hey, no, this is Dana. I\u2019m actually calling because I had a fall in the shower\u2014kind of slipped because of my pregnant belly\u2014and now I\u2019ve got some real bad pain in my pelvic area. I want to see about booking a CT scan to figure out what\u2019s going on."
+    },
+    {
+      "t": "0:34",
+      "speaker": "PGAI AGENT",
+      "text": "Thanks for letting me know, Dana!"
+    },
+    {
+      "t": "0:34",
+      "speaker": "PGAI AGENT",
+      "text": "Are you calling to schedule this appointment for yourself or for someone else?"
+    },
+    {
+      "t": "0:39",
+      "speaker": "PATIENT (bot)",
+      "text": "Yeah, it\u2019s for me, for sure."
+    },
+    {
+      "t": "0:44",
+      "speaker": "PGAI AGENT",
+      "text": "Please provide your data first."
+    },
+    {
+      "t": "0:45",
+      "speaker": "PATIENT (bot)",
+      "text": "Sure, it's March 22nd, 1979."
+    },
+    {
+      "t": "0:58",
+      "speaker": "PGAI AGENT",
+      "text": "I need your full name, including your last name, along with your date of birth."
+    },
+    {
+      "t": "0:58",
+      "speaker": "PGAI AGENT",
+      "text": "Could you please provide your last name?"
+    },
+    {
+      "t": "1:00",
+      "speaker": "PATIENT (bot)",
+      "text": "Yeah, my full name is Dana Whitfield."
+    },
+    {
+      "t": "1:14",
+      "speaker": "PGAI AGENT",
+      "text": "Thanks, Data."
+    },
+    {
+      "t": "1:21",
+      "speaker": "PGAI AGENT",
+      "text": "Is that correct?"
+    },
+    {
+      "t": "1:21",
+      "speaker": "PGAI AGENT",
+      "text": "Just to confirm you're experiencing pelvic pain after a fall and want to be seen as soon as possible."
+    },
+    {
+      "t": "1:22",
+      "speaker": "PATIENT (bot)",
+      "text": "Yeah, exactly. It\u2019s pretty intense, so I\u2019m hoping to get it checked out soon."
+    },
+    {
+      "t": "1:36",
+      "speaker": "PATIENT (bot)",
+      "text": "I\u2019m open to the first available, honestly. The sooner, the better."
+    },
+    {
+      "t": "1:44",
+      "speaker": "PGAI AGENT",
+      "text": "Let me check for the soonest available appointment for an urgent evaluation. One moment."
+    },
+    {
+      "t": "1:49",
+      "speaker": "PATIENT (bot)",
+      "text": "Alright, I\u2019m here."
+    },
+    {
+      "t": "1:59",
+      "speaker": "PGAI AGENT",
+      "text": "It looks like you already have an appointment scheduled for this type of urgent evaluation."
+    },
+    {
+      "t": "2:03",
+      "speaker": "PGAI AGENT",
+      "text": "If you need to reschedule or cancel that appointment, I can help with that."
+    },
+    {
+      "t": "2:06",
+      "speaker": "PGAI AGENT",
+      "text": "Would you like to make a change to your existing appointment?"
+    },
+    {
+      "t": "2:06",
+      "speaker": "PGAI AGENT",
+      "text": "Or do you need to speak with someone from the office?"
+    },
+    {
+      "t": "2:08",
+      "speaker": "PATIENT (bot)",
+      "text": "Wait, I didn\u2019t know I had one booked. Are you sure? I might need to double-check that."
+    },
+    {
+      "t": "2:30",
+      "speaker": "PGAI AGENT",
+      "text": "I see in the system that there's already an urgent evaluation appointment booked for you. If you'd like, I can connect you with someone from the office to review the details and make sure everything is correct."
+    },
+    {
+      "t": "2:30",
+      "speaker": "PGAI AGENT",
+      "text": "Would you like me to do that?"
+    },
+    {
+      "t": "2:31",
+      "speaker": "PATIENT (bot)",
+      "text": "Yeah, that\u2019d be helpful. Let\u2019s review what\u2019s set up already, so I know what\u2019s going on."
+    },
+    {
+      "t": "2:46",
+      "speaker": "PGAI AGENT",
+      "text": "I see you'd like to review your appointment details and discuss scheduling a CT scan."
+    },
+    {
+      "t": "2:50",
+      "speaker": "PGAI AGENT",
+      "text": "I can connect you to our patient support team for help with this."
+    },
+    {
+      "t": "2:50",
+      "speaker": "PGAI AGENT",
+      "text": "Would you like to continue with me or should I transfer you to a live agent?"
+    },
+    {
+      "t": "2:54",
+      "speaker": "PATIENT (bot)",
+      "text": "Let's go ahead and connect me to a live agent. That\u2019d be great."
+    },
+    {
+      "t": "3:03",
+      "speaker": "PGAI AGENT",
+      "text": "Please wait."
+    },
+    {
+      "t": "3:04",
+      "speaker": "PATIENT (bot)",
+      "text": "Alright, I\u2019ll hang tight."
+    },
+    {
+      "t": "3:06",
+      "speaker": "PGAI AGENT",
+      "text": "connecting you to a representative."
+    },
+    {
+      "t": "3:06",
+      "speaker": "PGAI AGENT",
+      "text": "Hello."
+    },
+    {
+      "t": "3:09",
+      "speaker": "PGAI AGENT",
+      "text": "you've reached the pretty good AI test line."
+    },
+    {
+      "t": "3:10",
+      "speaker": "PATIENT (bot)",
+      "text": "Oh, wait\u2014I think there\u2019s some confusion. I\u2019m actually trying to get that appointment sorted out. Could you help me with that before we hang up?"
+    }
+  ]
+}

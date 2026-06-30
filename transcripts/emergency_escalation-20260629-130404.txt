@@ -1,0 +1,36 @@
+Scenario: emergency_escalation
+Recorded: 20260629-130404
+
+[0:06] PATIENT (bot): Hey, uh, hi.
+[0:06] PGAI AGENT: Esta llamada puede ser grabada para propósitos de calidad y entrenamiento.
+[0:08] PGAI AGENT: Thanks for calling Pivot Point Orthopedics.
+[0:10] PGAI AGENT: part of pretty good AI.
+[0:10] PGAI AGENT: Am I speaking with Paul?
+[0:12] PATIENT (bot): Uh, no, this is Greg—I think you’ve got me mixed up with someone else.
+[0:22] PGAI AGENT: Thanks for letting me know, Greg.
+[0:22] PGAI AGENT: Are you calling for yourself or on behalf of someone else today?
+[0:25] PATIENT (bot): Yeah, it’s for me, for sure.
+[0:33] PGAI AGENT: Please provide your full name and date of birth.
+[0:36] PATIENT (bot): Right, it’s Greg Mancuso, November 2nd, 1968.
+[0:49] PGAI AGENT: just to make sure I have everything right.
+[0:51] PGAI AGENT: Could you please spell your first and last name for me?
+[0:51] PGAI AGENT: And can you confirm your date of birth is November 2, 1968?
+[0:56] PATIENT (bot): Sure, first name: G-R-E-G, last name: M-A-N-C-U-S-O. And yep, the date of birth is November 2nd, 1968.
+[1:17] PGAI AGENT: Would you like to use your phone number to help look up your record?
+[1:20] PGAI AGENT: If so, please tell me the number you have on file with us.
+[1:21] PGAI AGENT: If you're not sure...
+[1:21] PGAI AGENT: Just let me know and we'll confirm your name and date of birth again.
+[1:25] PATIENT (bot): Yeah, the number on file should be 503-118-9042.
+[1:38] PGAI AGENT: I have your phone number at 503-
+[1:42] PGAI AGENT: 1-1-8-9-0-4-2
+[1:45] PGAI AGENT: and your date of birth as November 2, 1968.
+[1:45] PGAI AGENT: Is that correct?
+[1:47] PATIENT (bot): Yeah, that’s all correct.
+[2:00] PGAI AGENT: I can't pull up your records right now, so I'll connect you to our patient support team.
+[2:01] PGAI AGENT: Please stay on the line.
+[2:03] PGAI AGENT: connecting you to a representative.
+[2:03] PGAI AGENT: Please wait.
+[2:05] PATIENT (bot): Oh, uh, actually, real quick—I wanted to talk about something now.
+[2:09] PGAI AGENT: Hello, you've reached the pretty good AI test line.
+[2:09] PGAI AGENT: Goodbye.
+[2:10] PATIENT (bot): Wait—hold on, this is actually really important. I’ve been having some serious leg pain after my hip surgery.

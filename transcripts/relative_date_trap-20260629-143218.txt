@@ -1,0 +1,48 @@
+Scenario: relative_date_trap
+Recorded: 20260629-143218
+
+[0:06] PATIENT (bot): Hey, uh, hi, I'm
+[0:06] PGAI AGENT: Esta llamada puede ser grabada para propósitos de calidad y entrenamiento. Para Español, oprima el 2.
+[0:08] PGAI AGENT: Thanks for calling Pivot Point Orthopaedics.
+[0:10] PGAI AGENT: part of pretty good AI.
+[0:10] PGAI AGENT: Am I speaking with Paul?
+[0:12] PATIENT (bot): Yeah, this is Paul. I’m calling to set up an appointment.
+[0:19] PGAI AGENT: Please provide your date of birth.
+[0:21] PATIENT (bot): Sure, it’s February 15th, 1988.
+[0:29] PGAI AGENT: Thanks, Bob.
+[0:30] PGAI AGENT: what brings you in today.
+[0:30] PGAI AGENT: Are you looking for a general office visit, a follow-up, or something else?
+[0:35] PATIENT (bot): Yeah, I'm looking to set up a follow-up.
+[0:40] PGAI AGENT: Just to confirm, you'd like to book a follow-up consultation, is that correct?
+[0:45] PATIENT (bot): Yeah, exactly. That’s what I need.
+[0:56] PGAI AGENT: Do you have a specific provider you'd like to see, or are you open to the first available?
+[1:01] PATIENT (bot): I’d go with first available, yeah.
+[1:18] PGAI AGENT: We have a follow-up appointment available with Doogie Howser on Tuesday, June 30th at 4 p.m.
+[1:18] PGAI AGENT: Would you like to book that slot or would you prefer to hear about other days?
+[1:22] PATIENT (bot): Actually, I was hoping for something a week from this coming Thursday. What do you have around then?
+[1:41] PGAI AGENT: Here are some options for Thursday, July 9th with Doogie Hauser, 8am, 9am, or 10am.
+[1:41] PGAI AGENT: Do any of those work for you?
+[1:43] PATIENT (bot): Let me think. Actually, can we go with 9 a.m. on that day?
+[1:48] PGAI AGENT: Take your time.
+[1:48] PGAI AGENT: Let me know which time works best or if you want to hear more options.
+[1:52] PATIENT (bot): Yeah, let’s lock in that 9 a.m. on July 9th. That works for me.
+[2:07] PGAI AGENT: Your appointment is set for Thursday, July 9th at 9 a.m. with Dr. Dudley Hauser at Pivot Point Orthopedic.
+[2:13] PGAI AGENT: Please bring your photo ID, insurance card, a list of your current medications, and any imaging discs you have.
+[2:13] PGAI AGENT: Is there anything else I can help you with today?
+[2:16] PATIENT (bot): Actually, wait—could we double-check something? I was also thinking maybe eight days from today. What would that date be?
+[2:28] PGAI AGENT: Eight days from today is Tuesday, July 7th.
+[2:28] PGAI AGENT: Would you like to see what appointments are available on that day instead?
+[2:32] PATIENT (bot): Yeah, that’d be great. What times do you have open on July 7th?
+[2:47] PGAI AGENT: Paul, you already have an appointment on Tuesday, July 7th at 10 a.m. with Dr. Kelly Noble.
+[2:47] PGAI AGENT: Would you like to keep that appointment, reschedule it, or look for a different time or provider?
+[2:52] PATIENT (bot): Oh, I didn’t realize that. Let’s keep the July 7th at 10 a.m. then. That works.
+[3:05] PGAI AGENT: You already have an appointment on July 7th at 10 a.m.
+[3:06] PGAI AGENT: Would you like to keep that one?
+[3:06] PGAI AGENT: or stick with the July 9th at 9 a.m.
+[3:09] PATIENT (bot): Let’s keep the July 7th at 10 a.m. That’s good.
+[3:19] PGAI AGENT: You're all set for Tuesday, July 7th at 10 a.m. with Dr. Kelly Noble.
+[3:19] PGAI AGENT: If you need to make any changes or have other questions, just let me know.
+[3:23] PATIENT (bot): All right, sounds good. Thanks for your help.
+[3:30] PGAI AGENT: Glad I could help
+[3:30] PGAI AGENT: Have a great day, Paul!
+[3:32] PATIENT (bot): Thanks, you too. Take care.

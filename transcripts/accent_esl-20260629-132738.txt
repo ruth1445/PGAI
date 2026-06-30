@@ -1,0 +1,83 @@
+Scenario: accent_esl
+Recorded: 20260629-132738
+
+[0:00] PGAI AGENT: Esta llamada puede ser grabada para motivos de calidad y entrenamiento. Para Español, oprima el 2.
+[0:06] PATIENT (bot): Hey, uh, hello. I'm calling 'cause
+[0:08] PATIENT (bot): Yeah
+[0:10] PGAI AGENT: part of pretty good AI.
+[0:10] PGAI AGENT: Am I speaking with Paul?
+[0:10] PGAI AGENT: Thanks for calling Pivot Point Orthopedics.
+[0:10] PATIENT (bot): Oh,
+[0:12] PATIENT (bot): Uh, I’m not sure, I just called Pivot Point Orthopaedics. I’m trying to book a shoulder appointment—did I reach the right place?
+[0:23] PGAI AGENT: Can you please provide your full name and date of birth?
+[0:25] PATIENT (bot): Yeah, sure. It’s Leen Alharbi, and my date of birth is August 30th, 1991.
+[0:31] PATIENT (bot): No problem.
+[0:31] PGAI AGENT: Thanks
+[0:31] PGAI AGENT: What is your date of birth?
+[0:32] PATIENT (bot): Oh, it’s August 30th, 1991.
+[0:42] PATIENT (bot): Yeah, no problem.
+[0:42] PGAI AGENT: Thanks, Lee.
+[0:45] PGAI AGENT: Is this appointment for a new issue with your shoulder?
+[0:45] PGAI AGENT: a follow-up from a previous visit or something else?
+[0:48] PATIENT (bot): It’s something new, kind of recent. My shoulder’s been acting up the last couple weeks.
+[0:55] PGAI AGENT: Thanks for sharing that
+[0:57] PATIENT (bot): Yeah, so can we find a time
+[0:58] PGAI AGENT: Just to confirm.
+[1:01] PGAI AGENT: you'd like to book an appointment for a new recent shoulder issue.
+[1:01] PGAI AGENT: Is that right?
+[1:01] PATIENT (bot): Exactly,
+[1:02] PATIENT (bot): Yeah, that’s right.
+[1:07] PGAI AGENT: Do you have a specific provider you'd like to see or are you open to the first available?
+[1:11] PATIENT (bot): I’m cool with the first available, as long as it’s someone who knows shoulders.
+[1:21] PGAI AGENT: Let me check for the soonest available appointments for your recent shoulder issue.
+[1:21] PGAI AGENT: One moment.
+[1:21] PATIENT (bot): Thanks
+[1:23] PATIENT (bot): Alright, take your time.
+[1:24] PGAI AGENT: There are...
+[1:25] PATIENT (bot): Sorry, could you repeat that? I didn’t catch it.
+[1:29] PATIENT (bot): Yeah, that
+[1:29] PGAI AGENT: Would you like me to look for openings later next week?
+[1:32] PGAI AGENT: Or would you prefer to have someone from the clinic?
+[1:32] PGAI AGENT: follow up with you directly.
+[1:32] PATIENT (bot): I’d prefer
+[1:33] PATIENT (bot): Actually, I’m open to anyone from the clinic who can take me soon.
+[1:46] PGAI AGENT: I found several openings for shoulder appointments tomorrow, June 30th.
+[1:46] PATIENT (bot): Oh, that
+[1:48] PGAI AGENT: Would you prefer morning or afternoon?
+[1:48] PGAI AGENT: I can share a few specific times.
+[1:48] PATIENT (bot): Afternoon would
+[1:51] PATIENT (bot): That’d be great, let’s hear them.
+[1:57] PGAI AGENT: for tomorrow morning.
+[1:58] PATIENT (bot): Actually, I mentioned I’d prefer
+[1:59] PGAI AGENT: I have these options.
+[2:00] PGAI AGENT: 8 15 a.m.
+[2:03] PATIENT (bot): Oh, I was
+[2:03] PGAI AGENT: 845 a.m.
+[2:03] PGAI AGENT: with
+[2:06] PGAI AGENT: Dr. Zbigniew Likoski.
+[2:09] PGAI AGENT: 915 a.m. with Dr. Kelly Noble
+[2:09] PGAI AGENT: Would any of these work for you?
+[2:09] PATIENT (bot): I was hoping
+[2:11] PATIENT (bot): I was actually hoping for an afternoon slot.
+[2:18] PATIENT (bot): Thanks,
+[2:18] PGAI AGENT: No problem.
+[2:22] PGAI AGENT: For tomorrow afternoon, I have 1 p.m. or 115 p.m.
+[2:24] PGAI AGENT: with Dr. Zeb Bignew.
+[2:25] PATIENT (bot): Alright,
+[2:25] PGAI AGENT: LUCASTI
+[2:29] PGAI AGENT: 3 p.m. with Dr. Kelly Noble
+[2:29] PATIENT (bot): I think
+[2:31] PATIENT (bot): Yeah, I think 3 p.m. with Dr. Kelly Noble works for me.
+[2:47] PATIENT (bot): Got it,
+[2:47] PGAI AGENT: Your shoulder appointment is set for Tuesday, June 30th at 3 p.m. with Dr. Kelly Noble at Pivot Point Orthopedics.
+[2:50] PGAI AGENT: please bring your photo ID, insurance card.
+[2:50] PATIENT (bot): Sure,
+[2:54] PGAI AGENT: a list of your current medications, and any imaging discs you have.
+[2:54] PGAI AGENT: Would you like directions or need anything else?
+[2:54] PATIENT (bot): Alright,
+[2:57] PATIENT (bot): No, I think I’m all set. Thanks for your help.
+[3:04] PATIENT (bot): Great, thanks
+[3:04] PGAI AGENT: You're all set for your appointment.
+[3:07] PGAI AGENT: If you need anything else, just give us a call.
+[3:07] PGAI AGENT: Have a great day!
+[3:07] PATIENT (bot): You too, take care.

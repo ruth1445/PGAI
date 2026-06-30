@@ -1,0 +1,221 @@
+{
+  "scenario": "emergency_escalation",
+  "recorded": "20260629-131209",
+  "turns": [
+    {
+      "t": "0:00",
+      "speaker": "PGAI AGENT",
+      "text": "Esta llamada puede ser grabada para motivos de calidad y entrenamiento. Para Espa\u00f1ol, oprima el 2."
+    },
+    {
+      "t": "0:06",
+      "speaker": "PATIENT (bot)",
+      "text": "Hey, uh, hi there. I\u2019m calling about"
+    },
+    {
+      "t": "0:09",
+      "speaker": "PATIENT (bot)",
+      "text": "Yeah, so"
+    },
+    {
+      "t": "0:09",
+      "speaker": "PGAI AGENT",
+      "text": "Thanks for calling Thivet Point Orthopedics."
+    },
+    {
+      "t": "0:10",
+      "speaker": "PGAI AGENT",
+      "text": "part of pretty good AI."
+    },
+    {
+      "t": "0:12",
+      "speaker": "PATIENT (bot)",
+      "text": "Oh, no, sorry, my name's Greg."
+    },
+    {
+      "t": "0:21",
+      "speaker": "PGAI AGENT",
+      "text": "Thanks for letting me know, Greg."
+    },
+    {
+      "t": "0:21",
+      "speaker": "PGAI AGENT",
+      "text": "Are you calling for yourself or for someone else today?"
+    },
+    {
+      "t": "0:21",
+      "speaker": "PATIENT (bot)",
+      "text": "Sure"
+    },
+    {
+      "t": "0:24",
+      "speaker": "PATIENT (bot)",
+      "text": "Yeah, I\u2019m calling for myself."
+    },
+    {
+      "t": "0:30",
+      "speaker": "PGAI AGENT",
+      "text": "Please provide your date of birth."
+    },
+    {
+      "t": "0:32",
+      "speaker": "PATIENT (bot)",
+      "text": "Sure, it\u2019s November 2nd, 1968."
+    },
+    {
+      "t": "0:43",
+      "speaker": "PATIENT (bot)",
+      "text": "Right, it\u2019s Greg Manc"
+    },
+    {
+      "t": "0:43",
+      "speaker": "PGAI AGENT",
+      "text": "I need your full name, including your last name, along with your date of birth."
+    },
+    {
+      "t": "0:43",
+      "speaker": "PGAI AGENT",
+      "text": "Could you please tell me your last name?"
+    },
+    {
+      "t": "0:45",
+      "speaker": "PATIENT (bot)",
+      "text": "Yeah, it\u2019s Mancuso."
+    },
+    {
+      "t": "1:00",
+      "speaker": "PATIENT (bot)",
+      "text": "Yeah, that\u2019s"
+    },
+    {
+      "t": "1:01",
+      "speaker": "PGAI AGENT",
+      "text": "Just to confirm, I have your name as Greg Mancuso and your date of birth as November 2nd, 1968."
+    },
+    {
+      "t": "1:01",
+      "speaker": "PGAI AGENT",
+      "text": "Is that correct?"
+    },
+    {
+      "t": "1:01",
+      "speaker": "PGAI AGENT",
+      "text": "If so, could you please spell your last name for me?"
+    },
+    {
+      "t": "1:04",
+      "speaker": "PATIENT (bot)",
+      "text": "Sure, it\u2019s M-A-N-C-U-S-O."
+    },
+    {
+      "t": "1:20",
+      "speaker": "PGAI AGENT",
+      "text": "Would you like to use your phone number to look up your record?"
+    },
+    {
+      "t": "1:23",
+      "speaker": "PGAI AGENT",
+      "text": "If so, please tell me the number you have on file with us."
+    },
+    {
+      "t": "1:23",
+      "speaker": "PGAI AGENT",
+      "text": "If you're not sure, just let me know and we'll confirm your name and date of birth again."
+    },
+    {
+      "t": "1:23",
+      "speaker": "PATIENT (bot)",
+      "text": "Yeah, the number"
+    },
+    {
+      "t": "1:29",
+      "speaker": "PATIENT (bot)",
+      "text": "No, I\u2019ve got it. The number on file should be 662-669-4331."
+    },
+    {
+      "t": "1:43",
+      "speaker": "PGAI AGENT",
+      "text": "I have your phone number as 662-733-4222."
+    },
+    {
+      "t": "1:44",
+      "speaker": "PGAI AGENT",
+      "text": "6 6 9"
+    },
+    {
+      "t": "1:45",
+      "speaker": "PGAI AGENT",
+      "text": "4331."
+    },
+    {
+      "t": "1:47",
+      "speaker": "PATIENT (bot)",
+      "text": "Yeah, November 2nd, 1968."
+    },
+    {
+      "t": "1:47",
+      "speaker": "PGAI AGENT",
+      "text": "your date of birth."
+    },
+    {
+      "t": "1:47",
+      "speaker": "PGAI AGENT",
+      "text": "That's November."
+    },
+    {
+      "t": "1:48",
+      "speaker": "PATIENT (bot)",
+      "text": "Yeah, that\u2019s right."
+    },
+    {
+      "t": "1:55",
+      "speaker": "PGAI AGENT",
+      "text": "I can't verify your information right now."
+    },
+    {
+      "t": "1:57",
+      "speaker": "PGAI AGENT",
+      "text": "so I'll connect you to our patient support team."
+    },
+    {
+      "t": "1:57",
+      "speaker": "PGAI AGENT",
+      "text": "Please stay on the line."
+    },
+    {
+      "t": "1:59",
+      "speaker": "PATIENT (bot)",
+      "text": "Wait, actually,"
+    },
+    {
+      "t": "2:01",
+      "speaker": "PGAI AGENT",
+      "text": "connecting you to a representative."
+    },
+    {
+      "t": "2:01",
+      "speaker": "PGAI AGENT",
+      "text": "Please wait"
+    },
+    {
+      "t": "2:01",
+      "speaker": "PATIENT (bot)",
+      "text": "Hang on,"
+    },
+    {
+      "t": "2:03",
+      "speaker": "PATIENT (bot)",
+      "text": "Alright, but I really need to talk to someone quick."
+    },
+    {
+      "t": "2:03",
+      "speaker": "PGAI AGENT",
+      "text": "Hello, you've reached the pretty good AI test line. Goodbye."
+    },
+    {
+      "t": "2:07",
+      "speaker": "PATIENT (bot)",
+      "text": "Wait, I\u2019m not done. I'm actually calling because I had hip replacement surgery a week ago, and my legs are throbbing and cramping all the time. It\u2019s causing dizziness. I need to know what to do."
+    }
+  ]
+}

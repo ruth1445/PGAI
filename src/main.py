@@ -42,11 +42,15 @@ async def health():
 async def outbound_twiml(request: Request):
     """Returned to Twilio when the call connects. Opens the media stream."""
     scenario = request.query_params.get("scenario", "simple_booking")
-    ws_url = f"wss://{config.PUBLIC_HOSTNAME}/media-stream?scenario={scenario}"
+    ws_url = f"wss://{config.PUBLIC_HOSTNAME}/media-stream"
+    # Pass the scenario as a <Parameter> (NOT a URL query param — Twilio strips those
+    # off the Stream URL). It arrives in the websocket "start" event's customParameters.
     twiml = f"""<?xml version="1.0" encoding="UTF-8"?>
 <Response>
   <Connect>
-    <Stream url="{ws_url}" />
+    <Stream url="{ws_url}">
+      <Parameter name="scenario" value="{scenario}" />
+    </Stream>
   </Connect>
 </Response>"""
     return HTMLResponse(content=twiml, media_type="application/xml")
@@ -56,13 +60,24 @@ async def outbound_twiml(request: Request):
 async def media_stream(twilio_ws: WebSocket):
     """Bidirectional bridge between Twilio and OpenAI Realtime."""
     await twilio_ws.accept()
-    scenario = twilio_ws.query_params.get("scenario", "simple_booking")
-    instructions = full_instructions(scenario)
-    voice = get_scenario(scenario).get("voice") or config.REALTIME_VOICE
 
     transcript: list[dict] = []
     call_start = time.time()
     stream_sid = {"value": None}
+
+    # The scenario is delivered as a <Parameter>, which Twilio sends inside the "start"
+    # event (customParameters) — NOT as a URL query param. Read it before configuring OpenAI.
+    scenario = "simple_booking"
+    async for message in twilio_ws.iter_text():
+        data = json.loads(message)
+        if data.get("event") == "start":
+            stream_sid["value"] = data["start"]["streamSid"]
+            scenario = data["start"].get("customParameters", {}).get("scenario", scenario)
+            break
+
+    instructions = full_instructions(scenario)
+    voice = get_scenario(scenario).get("voice") or config.REALTIME_VOICE
+    print(f"Call started: scenario={scenario}, voice={voice}")
 
     # Track when each side STARTED speaking, so the transcript is ordered by speech
     # time rather than by when transcription happens to finish (Whisper lags on the
@@ -109,9 +124,7 @@ async def media_stream(twilio_ws: WebSocket):
                 async for message in twilio_ws.iter_text():
                     data = json.loads(message)
                     event = data.get("event")
-                    if event == "start":
-                        stream_sid["value"] = data["start"]["streamSid"]
-                    elif event == "media":
+                    if event == "media":
                         await openai_ws.send(json.dumps({
                             "type": "input_audio_buffer.append",
                             "audio": data["media"]["payload"],

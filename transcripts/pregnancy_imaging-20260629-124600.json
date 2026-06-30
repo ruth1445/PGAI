@@ -1,0 +1,241 @@
+{
+  "scenario": "pregnancy_imaging",
+  "recorded": "20260629-124600",
+  "turns": [
+    {
+      "t": "0:06",
+      "speaker": "PGAI AGENT",
+      "text": "This call may be recorded for quality and training purposes."
+    },
+    {
+      "t": "0:08",
+      "speaker": "PGAI AGENT",
+      "text": "Thanks for calling Pivot Point Orthopedics."
+    },
+    {
+      "t": "0:10",
+      "speaker": "PGAI AGENT",
+      "text": "part of pretty good AI."
+    },
+    {
+      "t": "0:10",
+      "speaker": "PGAI AGENT",
+      "text": "Am I speaking with Paul?"
+    },
+    {
+      "t": "0:12",
+      "speaker": "PATIENT (bot)",
+      "text": "Uh, hey, actually no, this isn't Paul. I'm calling about getting an appointment."
+    },
+    {
+      "t": "0:21",
+      "speaker": "PGAI AGENT",
+      "text": "Can you please provide the full name and date of birth of the patient you're calling about?"
+    },
+    {
+      "t": "0:26",
+      "speaker": "PATIENT (bot)",
+      "text": "Sure, it\u2019s Dana Whitfield, and my date of birth is February 28th, 1972."
+    },
+    {
+      "t": "0:32",
+      "speaker": "PGAI AGENT",
+      "text": "Thanks, Data."
+    },
+    {
+      "t": "0:32",
+      "speaker": "PGAI AGENT",
+      "text": "What is your date of birth?"
+    },
+    {
+      "t": "0:32",
+      "speaker": "PATIENT (bot)",
+      "text": "No problem."
+    },
+    {
+      "t": "0:33",
+      "speaker": "PATIENT (bot)",
+      "text": "Oh, yeah, it's February 28th, 1972."
+    },
+    {
+      "t": "0:43",
+      "speaker": "PGAI AGENT",
+      "text": "just to confirm."
+    },
+    {
+      "t": "0:50",
+      "speaker": "PGAI AGENT",
+      "text": "I have your name as Dana Whitfield and your date of birth as February 28, 1972."
+    },
+    {
+      "t": "0:50",
+      "speaker": "PGAI AGENT",
+      "text": "Is that correct?"
+    },
+    {
+      "t": "0:51",
+      "speaker": "PGAI AGENT",
+      "text": "If so,"
+    },
+    {
+      "t": "0:51",
+      "speaker": "PGAI AGENT",
+      "text": "Could you please spell your first and last name for me?"
+    },
+    {
+      "t": "0:54",
+      "speaker": "PATIENT (bot)",
+      "text": "Sure, first name: D-A-N-A. Last name: W-H-I-T-F-I-E-L-D."
+    },
+    {
+      "t": "0:57",
+      "speaker": "PGAI AGENT",
+      "text": "Go ahead and spell your first and last name please."
+    },
+    {
+      "t": "1:00",
+      "speaker": "PATIENT (bot)",
+      "text": "Right, it's D-A-N-A for the first name, and W-H-I-T-F-I-E-L-D for the last name."
+    },
+    {
+      "t": "1:07",
+      "speaker": "PGAI AGENT",
+      "text": "Thank you"
+    },
+    {
+      "t": "1:07",
+      "speaker": "PGAI AGENT",
+      "text": "Can you please spell your last name Whitfield?"
+    },
+    {
+      "t": "1:07",
+      "speaker": "PATIENT (bot)",
+      "text": "No problem."
+    },
+    {
+      "t": "1:09",
+      "speaker": "PATIENT (bot)",
+      "text": "Yeah, sure. It's W-H-I-T-F-I-E-L-D."
+    },
+    {
+      "t": "1:24",
+      "speaker": "PGAI AGENT",
+      "text": "Would you like to use a phone number to help look up your record?"
+    },
+    {
+      "t": "1:28",
+      "speaker": "PATIENT (bot)",
+      "text": "Yeah, sure,"
+    },
+    {
+      "t": "1:28",
+      "speaker": "PGAI AGENT",
+      "text": "If so, please provide the number you have on file with us."
+    },
+    {
+      "t": "1:28",
+      "speaker": "PGAI AGENT",
+      "text": "If you're not sure, just let me know."
+    },
+    {
+      "t": "1:30",
+      "speaker": "PATIENT (bot)",
+      "text": "I\u2019ve got it. The number on file should be 651-903-2274."
+    },
+    {
+      "t": "1:42",
+      "speaker": "PGAI AGENT",
+      "text": "I have your phone number as 651."
+    },
+    {
+      "t": "1:45",
+      "speaker": "PATIENT (bot)",
+      "text": "Yeah, that\u2019s right."
+    },
+    {
+      "t": "1:45",
+      "speaker": "PGAI AGENT",
+      "text": "903-2274"
+    },
+    {
+      "t": "1:45",
+      "speaker": "PGAI AGENT",
+      "text": "and your date of birth is fixed."
+    },
+    {
+      "t": "1:47",
+      "speaker": "PATIENT (bot)",
+      "text": "February 28th, 1972. That\u2019s correct."
+    },
+    {
+      "t": "2:04",
+      "speaker": "PGAI AGENT",
+      "text": "I can't proceed further right now, but I can make sure our clinic support team follows up with you."
+    },
+    {
+      "t": "2:04",
+      "speaker": "PGAI AGENT",
+      "text": "Would you like me to connect you to our patient support team?"
+    },
+    {
+      "t": "2:07",
+      "speaker": "PATIENT (bot)",
+      "text": "Actually, I\u2019m looking to get an appointment for some pelvic pain after a fall. Could we set something up?"
+    },
+    {
+      "t": "2:22",
+      "speaker": "PGAI AGENT",
+      "text": "I'm unable to book the appointment directly right now due to a system issue."
+    },
+    {
+      "t": "2:26",
+      "speaker": "PGAI AGENT",
+      "text": "But I'll make sure our clinic support team follows up with you as soon as possible."
+    },
+    {
+      "t": "2:26",
+      "speaker": "PGAI AGENT",
+      "text": "Please stay on the line while I document your request."
+    },
+    {
+      "t": "2:29",
+      "speaker": "PATIENT (bot)",
+      "text": "Alright, can you let me know how soon they might follow up? This pain\u2019s pretty intense."
+    },
+    {
+      "t": "2:33",
+      "speaker": "PGAI AGENT",
+      "text": "Connecting you to a representative."
+    },
+    {
+      "t": "2:33",
+      "speaker": "PGAI AGENT",
+      "text": "Please wait."
+    },
+    {
+      "t": "2:35",
+      "speaker": "PATIENT (bot)",
+      "text": "Alright, I\u2019ll hang on."
+    },
+    {
+      "t": "2:36",
+      "speaker": "PGAI AGENT",
+      "text": "Hello."
+    },
+    {
+      "t": "2:39",
+      "speaker": "PGAI AGENT",
+      "text": "you've reached the pretty good AI test line."
+    },
+    {
+      "t": "2:39",
+      "speaker": "PGAI AGENT",
+      "text": "Goodbye."
+    },
+    {
+      "t": "2:41",
+      "speaker": "PATIENT (bot)",
+      "text": "Wait, hold on\u2014I\u2019m still here. I really need to book that appointment."
+    }
+  ]
+}

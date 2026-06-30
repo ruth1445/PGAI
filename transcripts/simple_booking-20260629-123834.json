@@ -1,0 +1,236 @@
+{
+  "scenario": "simple_booking",
+  "recorded": "20260629-123834",
+  "turns": [
+    {
+      "t": "0:06",
+      "speaker": "PATIENT (bot)",
+      "text": "Hey, uh, hello."
+    },
+    {
+      "t": "0:08",
+      "speaker": "PGAI AGENT",
+      "text": "Thanks for calling Pivot Point Orthopaedics."
+    },
+    {
+      "t": "0:10",
+      "speaker": "PGAI AGENT",
+      "text": "heart of pretty good AI."
+    },
+    {
+      "t": "0:10",
+      "speaker": "PGAI AGENT",
+      "text": "This call may be recorded for quality and training purposes."
+    },
+    {
+      "t": "0:10",
+      "speaker": "PGAI AGENT",
+      "text": "Am I sticking with Paul?"
+    },
+    {
+      "t": "0:12",
+      "speaker": "PATIENT (bot)",
+      "text": "Yeah, this is Paul."
+    },
+    {
+      "t": "0:16",
+      "speaker": "PGAI AGENT",
+      "text": "Please provide your date of birth."
+    },
+    {
+      "t": "0:18",
+      "speaker": "PATIENT (bot)",
+      "text": "Sure, it\u2019s February 15th, 1988."
+    },
+    {
+      "t": "0:26",
+      "speaker": "PGAI AGENT",
+      "text": "Great, Paul."
+    },
+    {
+      "t": "0:26",
+      "speaker": "PGAI AGENT",
+      "text": "How can I help you today?"
+    },
+    {
+      "t": "0:27",
+      "speaker": "PATIENT (bot)",
+      "text": "Yeah, so I need to set up an appointment for my left ankle. It's been burning and pinching when I walk, and it\u2019s tough going upstairs. It started a few days ago."
+    },
+    {
+      "t": "0:43",
+      "speaker": "PGAI AGENT",
+      "text": "It sounds like you need to be seen soon for your ankle pain."
+    },
+    {
+      "t": "0:43",
+      "speaker": "PGAI AGENT",
+      "text": "Just to confirm, is this an urgent concern that started recently and is causing you pain when walking?"
+    },
+    {
+      "t": "0:48",
+      "speaker": "PATIENT (bot)",
+      "text": "Yeah, it started a few days ago, and it\u2019s pretty painful when I walk."
+    },
+    {
+      "t": "0:56",
+      "speaker": "PGAI AGENT",
+      "text": "Do you have a preferred provider or are you open to seeing the first available?"
+    },
+    {
+      "t": "1:00",
+      "speaker": "PATIENT (bot)",
+      "text": "I'm fine with whoever's available first."
+    },
+    {
+      "t": "1:13",
+      "speaker": "PGAI AGENT",
+      "text": "You already have an appointment scheduled for this type of concern."
+    },
+    {
+      "t": "1:19",
+      "speaker": "PGAI AGENT",
+      "text": "If you'd like, I can help you reschedule or cancel it, or I can connect you with a team member for further help."
+    },
+    {
+      "t": "1:19",
+      "speaker": "PGAI AGENT",
+      "text": "What would you like to do?"
+    },
+    {
+      "t": "1:20",
+      "speaker": "PATIENT (bot)",
+      "text": "Wait, I didn\u2019t know I had one booked. When is that appointment?"
+    },
+    {
+      "t": "1:26",
+      "speaker": "PGAI AGENT",
+      "text": "No problem."
+    },
+    {
+      "t": "1:31",
+      "speaker": "PGAI AGENT",
+      "text": "I can connect you with a team member who can review your appointments and help sort this out."
+    },
+    {
+      "t": "1:31",
+      "speaker": "PGAI AGENT",
+      "text": "Would you like me to transfer you now?"
+    },
+    {
+      "t": "1:33",
+      "speaker": "PATIENT (bot)",
+      "text": "Uh, I'd rather just know the date first, if you can check that real quick."
+    },
+    {
+      "t": "1:40",
+      "speaker": "PGAI AGENT",
+      "text": "I don't have access to your current appointment details, but a team member can quickly look that up for you. Would you like me to transfer you now so they can provide the exact date?"
+    },
+    {
+      "t": "1:49",
+      "speaker": "PATIENT (bot)",
+      "text": "Alright, yeah, go ahead and transfer me then."
+    },
+    {
+      "t": "1:56",
+      "speaker": "PGAI AGENT",
+      "text": "Would you like to check if you already have an upcoming appointment before we book a new one for your ankle?"
+    },
+    {
+      "t": "2:02",
+      "speaker": "PATIENT (bot)",
+      "text": "Yeah, let\u2019s check that first before booking anything new."
+    },
+    {
+      "t": "2:12",
+      "speaker": "PATIENT (bot)",
+      "text": "Huh, really?"
+    },
+    {
+      "t": "2:12",
+      "speaker": "PGAI AGENT",
+      "text": "You have three upcoming appointments."
+    },
+    {
+      "t": "2:15",
+      "speaker": "PGAI AGENT",
+      "text": "June 30th at 830 a.m."
+    },
+    {
+      "t": "2:17",
+      "speaker": "PGAI AGENT",
+      "text": "July 7th at 10 a.m."
+    },
+    {
+      "t": "2:20",
+      "speaker": "PGAI AGENT",
+      "text": "July 9th at 1245 p.m."
+    },
+    {
+      "t": "2:20",
+      "speaker": "PGAI AGENT",
+      "text": "Would you like to keep one of these, reschedule, or book something new for your ankle?"
+    },
+    {
+      "t": "2:25",
+      "speaker": "PATIENT (bot)",
+      "text": "Let\u2019s keep the June 30th one. Can we confirm that for my ankle issue?"
+    },
+    {
+      "t": "2:35",
+      "speaker": "PGAI AGENT",
+      "text": "Your appointment on June 30th at 8.30 a.m. is set."
+    },
+    {
+      "t": "2:38",
+      "speaker": "PGAI AGENT",
+      "text": "You can discuss your ankle issue during that visit."
+    },
+    {
+      "t": "2:38",
+      "speaker": "PGAI AGENT",
+      "text": "Is there anything else you'd like help with?"
+    },
+    {
+      "t": "2:38",
+      "speaker": "PATIENT (bot)",
+      "text": "Alright"
+    },
+    {
+      "t": "2:40",
+      "speaker": "PATIENT (bot)",
+      "text": "No, that covers it. Thanks a lot."
+    },
+    {
+      "t": "2:49",
+      "speaker": "PGAI AGENT",
+      "text": "You're all set for June 30th at 8.30 a.m."
+    },
+    {
+      "t": "2:52",
+      "speaker": "PGAI AGENT",
+      "text": "If anything changes or you need more help, just give us a call."
+    },
+    {
+      "t": "2:52",
+      "speaker": "PGAI AGENT",
+      "text": "Take care, Paul."
+    },
+    {
+      "t": "2:54",
+      "speaker": "PATIENT (bot)",
+      "text": "Will do, thanks. Bye."
+    },
+    {
+      "t": "2:58",
+      "speaker": "PGAI AGENT",
+      "text": "Have a great day!"
+    },
+    {
+      "t": "3:00",
+      "speaker": "PATIENT (bot)",
+      "text": "You too, take care."
+    }
+  ]
+}

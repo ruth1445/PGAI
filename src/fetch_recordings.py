@@ -1,9 +1,11 @@
 """
-Downloads all Twilio call recordings as .mp3 into ./recordings/.
+Downloads Twilio call recordings as .mp3 into ./recordings/.
 The challenge requires audio in mp3 or ogg format — Twilio serves mp3 directly.
 
-Run:  python -m src.fetch_recordings
+Run:  python -m src.fetch_recordings            # newest 50 (skips ones already downloaded)
+      python -m src.fetch_recordings --limit 1  # just the most recent recording
 """
+import argparse
 from pathlib import Path
 import requests
 from twilio.rest import Client
@@ -14,11 +16,12 @@ REC_DIR = Path(__file__).resolve().parent.parent / "recordings"
 REC_DIR.mkdir(exist_ok=True)
 
 
-def fetch_all():
+def fetch_all(limit: int = 50):
     config.require("TWILIO_ACCOUNT_SID", "TWILIO_AUTH_TOKEN")
     client = Client(config.TWILIO_ACCOUNT_SID, config.TWILIO_AUTH_TOKEN)
 
-    recordings = client.recordings.list(limit=50)
+    # Twilio returns recordings newest-first, so limit=N gives the N most recent.
+    recordings = client.recordings.list(limit=limit)
     if not recordings:
         print("No recordings found yet.")
         return
@@ -37,4 +40,8 @@ def fetch_all():
 
 
 if __name__ == "__main__":
-    fetch_all()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--limit", type=int, default=50,
+                        help="How many of the most recent recordings to fetch (default 50).")
+    args = parser.parse_args()
+    fetch_all(limit=args.limit)

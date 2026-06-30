@@ -22,6 +22,13 @@ def make_call(scenario: str):
     if scenario not in SCENARIOS:
         raise SystemExit(f"Unknown scenario '{scenario}'. Options: {', '.join(SCENARIOS)}")
 
+    # Safety guardrail: only ever dial the PGAI assessment line.
+    if config.TARGET_NUMBER != "+18054398008":
+        raise SystemExit(
+            f"Refusing to call {config.TARGET_NUMBER}: this bot only calls the PGAI "
+            f"test line (+18054398008)."
+        )
+
     client = Client(config.TWILIO_ACCOUNT_SID, config.TWILIO_AUTH_TOKEN)
     twiml_url = f"https://{config.PUBLIC_HOSTNAME}/outbound-twiml?scenario={scenario}"
 

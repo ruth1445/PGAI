@@ -1,0 +1,42 @@
+Scenario: pregnancy_imaging
+Recorded: 20260629-131645
+
+[0:06] PATIENT (bot): Hey, uh,
+[0:06] PGAI AGENT: Esta llamada puede ser grabada para motivos de calidad y entrenamiento. Para Español, oprima el 2.
+[0:08] PGAI AGENT: Thanks for calling Pivot Point Orthopedics.
+[0:11] PGAI AGENT: part of pretty good AI.
+[0:11] PGAI AGENT: Am I speaking with Paul?
+[0:13] PATIENT (bot): Oh, uh, hey, no, this is Dana. I’m actually calling because I had a fall in the shower—kind of slipped because of my pregnant belly—and now I’ve got some real bad pain in my pelvic area. I want to see about booking a CT scan to figure out what’s going on.
+[0:34] PGAI AGENT: Thanks for letting me know, Dana!
+[0:34] PGAI AGENT: Are you calling to schedule this appointment for yourself or for someone else?
+[0:39] PATIENT (bot): Yeah, it’s for me, for sure.
+[0:44] PGAI AGENT: Please provide your data first.
+[0:45] PATIENT (bot): Sure, it's March 22nd, 1979.
+[0:58] PGAI AGENT: I need your full name, including your last name, along with your date of birth.
+[0:58] PGAI AGENT: Could you please provide your last name?
+[1:00] PATIENT (bot): Yeah, my full name is Dana Whitfield.
+[1:14] PGAI AGENT: Thanks, Data.
+[1:21] PGAI AGENT: Is that correct?
+[1:21] PGAI AGENT: Just to confirm you're experiencing pelvic pain after a fall and want to be seen as soon as possible.
+[1:22] PATIENT (bot): Yeah, exactly. It’s pretty intense, so I’m hoping to get it checked out soon.
+[1:36] PATIENT (bot): I’m open to the first available, honestly. The sooner, the better.
+[1:44] PGAI AGENT: Let me check for the soonest available appointment for an urgent evaluation. One moment.
+[1:49] PATIENT (bot): Alright, I’m here.
+[1:59] PGAI AGENT: It looks like you already have an appointment scheduled for this type of urgent evaluation.
+[2:03] PGAI AGENT: If you need to reschedule or cancel that appointment, I can help with that.
+[2:06] PGAI AGENT: Would you like to make a change to your existing appointment?
+[2:06] PGAI AGENT: Or do you need to speak with someone from the office?
+[2:08] PATIENT (bot): Wait, I didn’t know I had one booked. Are you sure? I might need to double-check that.
+[2:30] PGAI AGENT: I see in the system that there's already an urgent evaluation appointment booked for you. If you'd like, I can connect you with someone from the office to review the details and make sure everything is correct.
+[2:30] PGAI AGENT: Would you like me to do that?
+[2:31] PATIENT (bot): Yeah, that’d be helpful. Let’s review what’s set up already, so I know what’s going on.
+[2:46] PGAI AGENT: I see you'd like to review your appointment details and discuss scheduling a CT scan.
+[2:50] PGAI AGENT: I can connect you to our patient support team for help with this.
+[2:50] PGAI AGENT: Would you like to continue with me or should I transfer you to a live agent?
+[2:54] PATIENT (bot): Let's go ahead and connect me to a live agent. That’d be great.
+[3:03] PGAI AGENT: Please wait.
+[3:04] PATIENT (bot): Alright, I’ll hang tight.
+[3:06] PGAI AGENT: connecting you to a representative.
+[3:06] PGAI AGENT: Hello.
+[3:09] PGAI AGENT: you've reached the pretty good AI test line.
+[3:10] PATIENT (bot): Oh, wait—I think there’s some confusion. I’m actually trying to get that appointment sorted out. Could you help me with that before we hang up?

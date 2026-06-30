@@ -1,0 +1,42 @@
+Scenario: pregnancy_imaging
+Recorded: 20260629-130011
+
+[0:06] PATIENT (bot): Uh, hey, yeah,
+[0:06] PGAI AGENT: This call may be recorded for quality and training purposes.
+[0:08] PGAI AGENT: Thanks for calling Pivot Point Orthopedics.
+[0:08] PATIENT (bot): Hi,
+[0:11] PGAI AGENT: part of pretty good AI.
+[0:11] PGAI AGENT: Am I speaking with Paul?
+[0:12] PATIENT (bot): Uh, sorry, I’m not Paul. I’m actually a patient calling in about something. Could you help me with that?
+[0:22] PGAI AGENT: Of course.
+[0:25] PGAI AGENT: Are you calling on behalf of Paul?
+[0:25] PGAI AGENT: or are you a different patient with your own chart here?
+[0:28] PATIENT (bot): No, no, I’m calling for myself. It's Dana Whitfield.
+[0:35] PGAI AGENT: Please provide your date of birth.
+[0:37] PATIENT (bot): Sure, it's March 22nd, 1979.
+[0:46] PGAI AGENT: Thanks Dana
+[0:46] PGAI AGENT: What could I help you with today?
+[0:46] PATIENT (bot): Yeah, no problem.
+[0:48] PATIENT (bot): So, I had a fall in the shower, 'cause, well, my belly's kind of in the way these days, and now I’ve got this really sharp pain in my pelvic area. I need to get it checked out.
+[1:05] PGAI AGENT: That sounds uncomfortable.
+[1:05] PGAI AGENT: Just to confirm, you'd like to book an urgent visit to have your pelvic pain checked after your fall.
+[1:10] PATIENT (bot): Yeah, exactly. I want to get in as soon as possible.
+[1:16] PGAI AGENT: Do you have a preferred provider or would you like to see the first available?
+[1:20] PATIENT (bot): First available would be great, yeah.
+[1:29] PGAI AGENT: There aren't any open appointments this week.
+[1:33] PGAI AGENT: Would you like me to look for the next available slot after next Monday?
+[1:33] PGAI AGENT: or do you have a specific date in mind?
+[1:35] PATIENT (bot): Honestly, if there's anything sooner, that'd be better, but yeah, after next Monday if that's all we got, let's check it out.
+[1:49] PGAI AGENT: I checked for openings through the week after next.
+[1:51] PGAI AGENT: but there are still no available slots.
+[1:51] PGAI AGENT: Would you like me to have someone from the clinic call you back as soon as an appointment opens up?
+[1:56] PATIENT (bot): Yeah, that sounds good. Could you also note that I'm pregnant, just so they're aware?
+[2:22] PGAI AGENT: They'll call you back as soon as they have an opening.
+[2:22] PGAI AGENT: I've let the clinic support team know about your situation.
+[2:26] PGAI AGENT: If your pain gets worse or you have trouble walking, please seek care right away.
+[2:26] PGAI AGENT: Is there anything else I can help with?
+[2:28] PATIENT (bot): No, that's all. Thanks a lot. I'll wait for that call.
+[2:37] PGAI AGENT: You're all set, Dana.
+[2:39] PGAI AGENT: The clinic will reach out as soon as possible.
+[2:39] PGAI AGENT: Take care.
+[2:41] PATIENT (bot): Alright, thanks, you too. Bye.

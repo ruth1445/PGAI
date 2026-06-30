@@ -1,0 +1,50 @@
+Scenario: pregnancy_imaging
+Recorded: 20260629-124600
+
+[0:06] PGAI AGENT: This call may be recorded for quality and training purposes.
+[0:08] PGAI AGENT: Thanks for calling Pivot Point Orthopedics.
+[0:10] PGAI AGENT: part of pretty good AI.
+[0:10] PGAI AGENT: Am I speaking with Paul?
+[0:12] PATIENT (bot): Uh, hey, actually no, this isn't Paul. I'm calling about getting an appointment.
+[0:21] PGAI AGENT: Can you please provide the full name and date of birth of the patient you're calling about?
+[0:26] PATIENT (bot): Sure, it’s Dana Whitfield, and my date of birth is February 28th, 1972.
+[0:32] PGAI AGENT: Thanks, Data.
+[0:32] PGAI AGENT: What is your date of birth?
+[0:32] PATIENT (bot): No problem.
+[0:33] PATIENT (bot): Oh, yeah, it's February 28th, 1972.
+[0:43] PGAI AGENT: just to confirm.
+[0:50] PGAI AGENT: I have your name as Dana Whitfield and your date of birth as February 28, 1972.
+[0:50] PGAI AGENT: Is that correct?
+[0:51] PGAI AGENT: If so,
+[0:51] PGAI AGENT: Could you please spell your first and last name for me?
+[0:54] PATIENT (bot): Sure, first name: D-A-N-A. Last name: W-H-I-T-F-I-E-L-D.
+[0:57] PGAI AGENT: Go ahead and spell your first and last name please.
+[1:00] PATIENT (bot): Right, it's D-A-N-A for the first name, and W-H-I-T-F-I-E-L-D for the last name.
+[1:07] PGAI AGENT: Thank you
+[1:07] PGAI AGENT: Can you please spell your last name Whitfield?
+[1:07] PATIENT (bot): No problem.
+[1:09] PATIENT (bot): Yeah, sure. It's W-H-I-T-F-I-E-L-D.
+[1:24] PGAI AGENT: Would you like to use a phone number to help look up your record?
+[1:28] PATIENT (bot): Yeah, sure,
+[1:28] PGAI AGENT: If so, please provide the number you have on file with us.
+[1:28] PGAI AGENT: If you're not sure, just let me know.
+[1:30] PATIENT (bot): I’ve got it. The number on file should be 651-903-2274.
+[1:42] PGAI AGENT: I have your phone number as 651.
+[1:45] PATIENT (bot): Yeah, that’s right.
+[1:45] PGAI AGENT: 903-2274
+[1:45] PGAI AGENT: and your date of birth is fixed.
+[1:47] PATIENT (bot): February 28th, 1972. That’s correct.
+[2:04] PGAI AGENT: I can't proceed further right now, but I can make sure our clinic support team follows up with you.
+[2:04] PGAI AGENT: Would you like me to connect you to our patient support team?
+[2:07] PATIENT (bot): Actually, I’m looking to get an appointment for some pelvic pain after a fall. Could we set something up?
+[2:22] PGAI AGENT: I'm unable to book the appointment directly right now due to a system issue.
+[2:26] PGAI AGENT: But I'll make sure our clinic support team follows up with you as soon as possible.
+[2:26] PGAI AGENT: Please stay on the line while I document your request.
+[2:29] PATIENT (bot): Alright, can you let me know how soon they might follow up? This pain’s pretty intense.
+[2:33] PGAI AGENT: Connecting you to a representative.
+[2:33] PGAI AGENT: Please wait.
+[2:35] PATIENT (bot): Alright, I’ll hang on.
+[2:36] PGAI AGENT: Hello.
+[2:39] PGAI AGENT: you've reached the pretty good AI test line.
+[2:39] PGAI AGENT: Goodbye.
+[2:41] PATIENT (bot): Wait, hold on—I’m still here. I really need to book that appointment.

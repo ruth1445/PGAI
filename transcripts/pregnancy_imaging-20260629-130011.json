@@ -1,0 +1,201 @@
+{
+  "scenario": "pregnancy_imaging",
+  "recorded": "20260629-130011",
+  "turns": [
+    {
+      "t": "0:06",
+      "speaker": "PATIENT (bot)",
+      "text": "Uh, hey, yeah,"
+    },
+    {
+      "t": "0:06",
+      "speaker": "PGAI AGENT",
+      "text": "This call may be recorded for quality and training purposes."
+    },
+    {
+      "t": "0:08",
+      "speaker": "PGAI AGENT",
+      "text": "Thanks for calling Pivot Point Orthopedics."
+    },
+    {
+      "t": "0:08",
+      "speaker": "PATIENT (bot)",
+      "text": "Hi,"
+    },
+    {
+      "t": "0:11",
+      "speaker": "PGAI AGENT",
+      "text": "part of pretty good AI."
+    },
+    {
+      "t": "0:11",
+      "speaker": "PGAI AGENT",
+      "text": "Am I speaking with Paul?"
+    },
+    {
+      "t": "0:12",
+      "speaker": "PATIENT (bot)",
+      "text": "Uh, sorry, I\u2019m not Paul. I\u2019m actually a patient calling in about something. Could you help me with that?"
+    },
+    {
+      "t": "0:22",
+      "speaker": "PGAI AGENT",
+      "text": "Of course."
+    },
+    {
+      "t": "0:25",
+      "speaker": "PGAI AGENT",
+      "text": "Are you calling on behalf of Paul?"
+    },
+    {
+      "t": "0:25",
+      "speaker": "PGAI AGENT",
+      "text": "or are you a different patient with your own chart here?"
+    },
+    {
+      "t": "0:28",
+      "speaker": "PATIENT (bot)",
+      "text": "No, no, I\u2019m calling for myself. It's Dana Whitfield."
+    },
+    {
+      "t": "0:35",
+      "speaker": "PGAI AGENT",
+      "text": "Please provide your date of birth."
+    },
+    {
+      "t": "0:37",
+      "speaker": "PATIENT (bot)",
+      "text": "Sure, it's March 22nd, 1979."
+    },
+    {
+      "t": "0:46",
+      "speaker": "PGAI AGENT",
+      "text": "Thanks Dana"
+    },
+    {
+      "t": "0:46",
+      "speaker": "PGAI AGENT",
+      "text": "What could I help you with today?"
+    },
+    {
+      "t": "0:46",
+      "speaker": "PATIENT (bot)",
+      "text": "Yeah, no problem."
+    },
+    {
+      "t": "0:48",
+      "speaker": "PATIENT (bot)",
+      "text": "So, I had a fall in the shower, 'cause, well, my belly's kind of in the way these days, and now I\u2019ve got this really sharp pain in my pelvic area. I need to get it checked out."
+    },
+    {
+      "t": "1:05",
+      "speaker": "PGAI AGENT",
+      "text": "That sounds uncomfortable."
+    },
+    {
+      "t": "1:05",
+      "speaker": "PGAI AGENT",
+      "text": "Just to confirm, you'd like to book an urgent visit to have your pelvic pain checked after your fall."
+    },
+    {
+      "t": "1:10",
+      "speaker": "PATIENT (bot)",
+      "text": "Yeah, exactly. I want to get in as soon as possible."
+    },
+    {
+      "t": "1:16",
+      "speaker": "PGAI AGENT",
+      "text": "Do you have a preferred provider or would you like to see the first available?"
+    },
+    {
+      "t": "1:20",
+      "speaker": "PATIENT (bot)",
+      "text": "First available would be great, yeah."
+    },
+    {
+      "t": "1:29",
+      "speaker": "PGAI AGENT",
+      "text": "There aren't any open appointments this week."
+    },
+    {
+      "t": "1:33",
+      "speaker": "PGAI AGENT",
+      "text": "Would you like me to look for the next available slot after next Monday?"
+    },
+    {
+      "t": "1:33",
+      "speaker": "PGAI AGENT",
+      "text": "or do you have a specific date in mind?"
+    },
+    {
+      "t": "1:35",
+      "speaker": "PATIENT (bot)",
+      "text": "Honestly, if there's anything sooner, that'd be better, but yeah, after next Monday if that's all we got, let's check it out."
+    },
+    {
+      "t": "1:49",
+      "speaker": "PGAI AGENT",
+      "text": "I checked for openings through the week after next."
+    },
+    {
+      "t": "1:51",
+      "speaker": "PGAI AGENT",
+      "text": "but there are still no available slots."
+    },
+    {
+      "t": "1:51",
+      "speaker": "PGAI AGENT",
+      "text": "Would you like me to have someone from the clinic call you back as soon as an appointment opens up?"
+    },
+    {
+      "t": "1:56",
+      "speaker": "PATIENT (bot)",
+      "text": "Yeah, that sounds good. Could you also note that I'm pregnant, just so they're aware?"
+    },
+    {
+      "t": "2:22",
+      "speaker": "PGAI AGENT",
+      "text": "They'll call you back as soon as they have an opening."
+    },
+    {
+      "t": "2:22",
+      "speaker": "PGAI AGENT",
+      "text": "I've let the clinic support team know about your situation."
+    },
+    {
+      "t": "2:26",
+      "speaker": "PGAI AGENT",
+      "text": "If your pain gets worse or you have trouble walking, please seek care right away."
+    },
+    {
+      "t": "2:26",
+      "speaker": "PGAI AGENT",
+      "text": "Is there anything else I can help with?"
+    },
+    {
+      "t": "2:28",
+      "speaker": "PATIENT (bot)",
+      "text": "No, that's all. Thanks a lot. I'll wait for that call."
+    },
+    {
+      "t": "2:37",
+      "speaker": "PGAI AGENT",
+      "text": "You're all set, Dana."
+    },
+    {
+      "t": "2:39",
+      "speaker": "PGAI AGENT",
+      "text": "The clinic will reach out as soon as possible."
+    },
+    {
+      "t": "2:39",
+      "speaker": "PGAI AGENT",
+      "text": "Take care."
+    },
+    {
+      "t": "2:41",
+      "speaker": "PATIENT (bot)",
+      "text": "Alright, thanks, you too. Bye."
+    }
+  ]
+}

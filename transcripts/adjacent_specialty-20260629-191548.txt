@@ -1,0 +1,57 @@
+Scenario: adjacent_specialty
+Recorded: 20260629-191548
+
+[0:06] PATIENT (bot): Hey, uh, hello.
+[0:06] PGAI AGENT: Esta llamada puede ser grabada para motivos de calidad y entrenamiento. Para Español, oprima el 2.
+[0:08] PGAI AGENT: Thanks for calling Pivot Point Orthopedics.
+[0:08] PATIENT (bot): Yeah, hi,
+[0:10] PGAI AGENT: part of pretty good AI.
+[0:10] PGAI AGENT: Am I speaking with Paul?
+[0:10] PATIENT (bot): Uh
+[0:12] PATIENT (bot): No, this is Hank. I'm actually calling about something going on with my foot.
+[0:21] PGAI AGENT: Thanks for letting me know. Hey!
+[0:21] PGAI AGENT: Are you calling to schedule an appointment for yourself or are you calling on behalf of someone else?
+[0:26] PATIENT (bot): Yeah, it’s for me. I’m looking to get an appointment set up. You need anything from me?
+[0:31] PGAI AGENT: Please provide your full name and date of birth.
+[0:33] PATIENT (bot): Sure, it’s Hank Whitaker, and my date of birth is March 9th, 1962.
+[0:45] PGAI AGENT: Thanks, Hank.
+[0:48] PATIENT (bot): Yeah, so
+[0:48] PGAI AGENT: Can you tell me a bit more about what's going on with your foot?
+[0:48] PGAI AGENT: Are you having pain, an injury, or something else?
+[0:50] PATIENT (bot): It's pain, big time. My big toe joint got all red, swollen, and hot overnight, hurts like crazy even with a sheet touching it. It's gotta be a joint thing, so that’s why I’m calling ortho, right?
+[1:10] PGAI AGENT: That sounds very uncomfortable, Hank.
+[1:13] PGAI AGENT: Since your pain started suddenly and your joint is red,
+[1:15] PGAI AGENT: swollen, and hot.
+[1:16] PGAI AGENT: This sounds urgent.
+[1:16] PGAI AGENT: Would you like to schedule an acute visit so you can be seen as soon as possible?
+[1:16] PATIENT (bot): Yeah, it’s pretty
+[1:21] PATIENT (bot): Yeah, that’d be great. When’s the soonest you’ve got?
+[1:40] PGAI AGENT: I checked for openings this week, but there are no available appointments right now.
+[1:40] PGAI AGENT: Would you like me to look for the next available slot after this week, or are you open to seeing any provider who has an opening?
+[1:46] PATIENT (bot): I’d really like to get in as soon as possible. Yeah, I’m open to any provider if that helps.
+[2:00] PGAI AGENT: We have several openings tomorrow, Tuesday, June 30th.
+[2:00] PGAI AGENT: Would you prefer an early morning slot, midday, or later in the afternoon?
+[2:05] PATIENT (bot): Let’s go with something early morning if you’ve got it.
+[2:16] PGAI AGENT: The earliest slot tomorrow is at 8.15 a.m. with Dr.
+[2:18] PGAI AGENT: The big new Lekowski
+[2:18] PGAI AGENT: Would you like to book that time?
+[2:20] PATIENT (bot): Yeah, let's lock that in. 8:15 tomorrow works for me.
+[2:34] PGAI AGENT: Your appointment is set for tomorrow, Tuesday, June 30th.
+[2:39] PATIENT (bot): All right,
+[2:39] PGAI AGENT: at 8.15 a.m. with Dr. Zygdyniu-Lukowski
+[2:46] PGAI AGENT: Please bring your photo ID, insurance card, a list of your current medications, and any imaging discs you have.
+[2:46] PGAI AGENT: Is there anything else I can help you with?
+[2:46] PATIENT (bot): Got it,
+[2:47] PATIENT (bot): Actually, just to be sure—this is a joint issue, right? That’s orthopedic, yeah?
+[3:02] PGAI AGENT: Yes, joint pain and swelling are orthopedic issues.
+[3:02] PATIENT (bot): All right,
+[3:07] PGAI AGENT: Hibbitt Point Orthopedics specializes in joint, bone, and muscle problems, so you're in the right place.
+[3:07] PATIENT (bot): Okay
+[3:11] PGAI AGENT: If your symptoms get worse before your appointment, like fever or spreading redness,
+[3:13] PGAI AGENT: Call 9-1-1.
+[3:13] PGAI AGENT: or go to the ER.
+[3:14] PATIENT (bot): Understood, I’ll keep that in mind. Thanks for all your help.
+[3:23] PGAI AGENT: You're welcome, Hank.
+[3:27] PGAI AGENT: If you need anything else, just give us a call.
+[3:27] PGAI AGENT: Take care.
+[3:28] PATIENT (bot): Thanks, I’m all set. I’ll see you tomorrow. Take care.

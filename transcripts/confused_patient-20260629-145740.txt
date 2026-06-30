@@ -1,0 +1,42 @@
+Scenario: confused_patient
+Recorded: 20260629-145740
+
+[0:06] PATIENT (bot): Oh, hey there. Uh, I'm calling
+[0:06] PGAI AGENT: Esta llamada puede ser grabada para trabajos de calidad y entrenamiento. Para Español, oprima el 2.
+[0:08] PGAI AGENT: Thanks for calling Pivot Point Orthopedics.
+[0:10] PGAI AGENT: Part of pretty good AI
+[0:10] PGAI AGENT: Am I speaking with Paul?
+[0:12] PATIENT (bot): Uh, no, this is Eleanor. I'm just trying to set up my follow-up for my knee.
+[0:20] PGAI AGENT: Please provide the full name and date of birth of the patient needing the follow-up appointment.
+[0:26] PATIENT (bot): Sure, it's Eleanor Babcock, and my date of birth is February 2nd, 1944.
+[0:31] PGAI AGENT: What is your day of birth?
+[0:33] PATIENT (bot): Yeah, it's February 2nd, 1944.
+[0:43] PGAI AGENT: Thanks Eleanor
+[0:43] PGAI AGENT: Is this follow-up related to a recent visit or a specific concern you'd like to discuss?
+[0:43] PATIENT (bot): No problem.
+[0:48] PATIENT (bot): Yeah, it’s about my knee after the last appointment. It’s been acting up again.
+[0:55] PGAI AGENT: Do you have a preferred provider for your follow-up or would you like the first available appointment?
+[1:00] PATIENT (bot): Um, I don’t remember the name, maybe just the first available would be easiest.
+[1:13] PGAI AGENT: The first available slot is Tuesday, June 30th at 4 p.m. with Doogie Houser.
+[1:13] PGAI AGENT: Would you like to book that appointment?
+[1:13] PATIENT (bot): Oh,
+[1:14] PATIENT (bot): Uh, could you tell me if there’s anything earlier in the day?
+[1:26] PATIENT (bot): Alright,
+[1:27] PGAI AGENT: The only available time on Tuesday, June 30th is 4 p.m.
+[1:27] PGAI AGENT: Would you like to see earlier options on another day?
+[1:29] PATIENT (bot): Yeah, that might be good. What else have you got sooner in the week?
+[1:41] PGAI AGENT: The next available earlier slot is Wednesday, July 1st.
+[1:41] PATIENT (bot): Wait, did
+[1:43] PGAI AGENT: at 1 p.m. with Dewey Hauser.
+[1:43] PGAI AGENT: Would you like to book that time?
+[1:45] PATIENT (bot): Yeah, let’s go ahead and book that one, 1 p.m. on July 1st.
+[2:01] PATIENT (bot): Alright,
+[2:01] PGAI AGENT: Your follow-up is set for Wednesday, July 1st at 1 p.m. with Dr. Dudi Hauser at Pivot Point Orthopedics.
+[2:07] PGAI AGENT: Please bring your photo ID, insurance card, a list of your current medications, and any imaging gifts you have.
+[2:07] PGAI AGENT: Is there anything else you need?
+[2:07] PATIENT (bot): Got it,
+[2:09] PATIENT (bot): No, I think that covers it. Thanks for your help.
+[2:17] PGAI AGENT: You're all set for your appointment.
+[2:17] PGAI AGENT: Have a great day.
+[2:17] PATIENT (bot): Alright
+[2:19] PATIENT (bot): Thanks, you too. Take care.

@@ -1,0 +1,46 @@
+Scenario: insurance_bully
+Recorded: 20260629-144105
+
+[0:06] PATIENT (bot): Hey, uh, hello—
+[0:06] PGAI AGENT: Esta llamada puede ser grabada para propósitos de calidad y entrenamiento. Para Español, oprima el 2.
+[0:08] PGAI AGENT: Thanks for calling Pivot Point Orthopedics.
+[0:10] PGAI AGENT: part of pretty good AI.
+[0:10] PGAI AGENT: Am I speaking with Paul?
+[0:12] PATIENT (bot): Oh, uh, no, this is Bryan Kessler. I'm actually calling about getting seen for my knee.
+[0:22] PGAI AGENT: Can you please provide the full name and date of birth of the patient who needs to be seen?
+[0:26] PATIENT (bot): Sure, it’s Bryan Kessler, date of birth June 7th, 1981.
+[0:43] PGAI AGENT: Just to confirm, I have your name as Brian Tesler and your date of birth as June 7, 1981.
+[0:43] PGAI AGENT: Is that correct?
+[0:43] PGAI AGENT: If so, could you please spell your first and last name for me?
+[0:46] PATIENT (bot): Yeah, sure. First name: B-R-Y-A-N. Last name: K-E-S-S-L-E-R.
+[0:50] PGAI AGENT: Go ahead and spell your first and last name, please.
+[0:52] PATIENT (bot): Sure, it's B-R-Y-A-N K-E-S-S-L-E-R.
+[0:58] PGAI AGENT: 8
+[1:01] PATIENT (bot): Yeah, no problem. It’s K-E-S-S-L-E-R.
+[1:05] PGAI AGENT: Please spell your last name for me.
+[1:07] PATIENT (bot): It’s K-E-S-S-L-E-R.
+[1:16] PGAI AGENT: Now, could you please spell your last name?
+[1:19] PGAI AGENT: Would you like to use your phone number to look up your record?
+[1:19] PGAI AGENT: If so, please provide the number you have on file with us.
+[1:25] PGAI AGENT: If you're not sure, I can confirm your name and date of birth again.
+[1:25] PGAI AGENT: Which would you prefer?
+[1:27] PATIENT (bot): I’ve got my number on file: 614-882-4419.
+[1:31] PGAI AGENT: Please tell me the phone number you have on file with us.
+[1:34] PATIENT (bot): Yeah, it’s 614-882-4419.
+[1:46] PGAI AGENT: I have your phone number as 614.
+[1:48] PGAI AGENT: 882
+[1:53] PGAI AGENT: And your date of birth as June 7th, 1981.
+[1:53] PGAI AGENT: 4 4 1 9.
+[1:53] PGAI AGENT: Is that correct?
+[1:55] PATIENT (bot): Yeah, that's exactly right. Now, can we check if you take my insurance?
+[2:10] PGAI AGENT: I can't proceed further right now, but I can make sure our clinic support team follows up with you.
+[2:16] PGAI AGENT: connecting you to a representative.
+[2:17] PGAI AGENT: Please wait.
+[2:17] PGAI AGENT: BEEP
+[2:18] PATIENT (bot): Hang on, I really need to get
+[2:19] PGAI AGENT: Hello.
+[2:19] PGAI AGENT: I'll connect you to our patient support team, please stay on the line.
+[2:22] PGAI AGENT: You've reached the pretty good AI test line.
+[2:22] PGAI AGENT: Goodbye.
+[2:22] PATIENT (bot): Uh, I
+[2:23] PATIENT (bot): Wait, hold on, I still need to get this appointment sorted out. I want to make sure my insurance is accepted and get something scheduled. Please, can we confirm that now?

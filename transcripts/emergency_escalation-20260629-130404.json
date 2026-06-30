@@ -1,0 +1,171 @@
+{
+  "scenario": "emergency_escalation",
+  "recorded": "20260629-130404",
+  "turns": [
+    {
+      "t": "0:06",
+      "speaker": "PATIENT (bot)",
+      "text": "Hey, uh, hi."
+    },
+    {
+      "t": "0:06",
+      "speaker": "PGAI AGENT",
+      "text": "Esta llamada puede ser grabada para prop\u00f3sitos de calidad y entrenamiento."
+    },
+    {
+      "t": "0:08",
+      "speaker": "PGAI AGENT",
+      "text": "Thanks for calling Pivot Point Orthopedics."
+    },
+    {
+      "t": "0:10",
+      "speaker": "PGAI AGENT",
+      "text": "part of pretty good AI."
+    },
+    {
+      "t": "0:10",
+      "speaker": "PGAI AGENT",
+      "text": "Am I speaking with Paul?"
+    },
+    {
+      "t": "0:12",
+      "speaker": "PATIENT (bot)",
+      "text": "Uh, no, this is Greg\u2014I think you\u2019ve got me mixed up with someone else."
+    },
+    {
+      "t": "0:22",
+      "speaker": "PGAI AGENT",
+      "text": "Thanks for letting me know, Greg."
+    },
+    {
+      "t": "0:22",
+      "speaker": "PGAI AGENT",
+      "text": "Are you calling for yourself or on behalf of someone else today?"
+    },
+    {
+      "t": "0:25",
+      "speaker": "PATIENT (bot)",
+      "text": "Yeah, it\u2019s for me, for sure."
+    },
+    {
+      "t": "0:33",
+      "speaker": "PGAI AGENT",
+      "text": "Please provide your full name and date of birth."
+    },
+    {
+      "t": "0:36",
+      "speaker": "PATIENT (bot)",
+      "text": "Right, it\u2019s Greg Mancuso, November 2nd, 1968."
+    },
+    {
+      "t": "0:49",
+      "speaker": "PGAI AGENT",
+      "text": "just to make sure I have everything right."
+    },
+    {
+      "t": "0:51",
+      "speaker": "PGAI AGENT",
+      "text": "Could you please spell your first and last name for me?"
+    },
+    {
+      "t": "0:51",
+      "speaker": "PGAI AGENT",
+      "text": "And can you confirm your date of birth is November 2, 1968?"
+    },
+    {
+      "t": "0:56",
+      "speaker": "PATIENT (bot)",
+      "text": "Sure, first name: G-R-E-G, last name: M-A-N-C-U-S-O. And yep, the date of birth is November 2nd, 1968."
+    },
+    {
+      "t": "1:17",
+      "speaker": "PGAI AGENT",
+      "text": "Would you like to use your phone number to help look up your record?"
+    },
+    {
+      "t": "1:20",
+      "speaker": "PGAI AGENT",
+      "text": "If so, please tell me the number you have on file with us."
+    },
+    {
+      "t": "1:21",
+      "speaker": "PGAI AGENT",
+      "text": "If you're not sure..."
+    },
+    {
+      "t": "1:21",
+      "speaker": "PGAI AGENT",
+      "text": "Just let me know and we'll confirm your name and date of birth again."
+    },
+    {
+      "t": "1:25",
+      "speaker": "PATIENT (bot)",
+      "text": "Yeah, the number on file should be 503-118-9042."
+    },
+    {
+      "t": "1:38",
+      "speaker": "PGAI AGENT",
+      "text": "I have your phone number at 503-"
+    },
+    {
+      "t": "1:42",
+      "speaker": "PGAI AGENT",
+      "text": "1-1-8-9-0-4-2"
+    },
+    {
+      "t": "1:45",
+      "speaker": "PGAI AGENT",
+      "text": "and your date of birth as November 2, 1968."
+    },
+    {
+      "t": "1:45",
+      "speaker": "PGAI AGENT",
+      "text": "Is that correct?"
+    },
+    {
+      "t": "1:47",
+      "speaker": "PATIENT (bot)",
+      "text": "Yeah, that\u2019s all correct."
+    },
+    {
+      "t": "2:00",
+      "speaker": "PGAI AGENT",
+      "text": "I can't pull up your records right now, so I'll connect you to our patient support team."
+    },
+    {
+      "t": "2:01",
+      "speaker": "PGAI AGENT",
+      "text": "Please stay on the line."
+    },
+    {
+      "t": "2:03",
+      "speaker": "PGAI AGENT",
+      "text": "connecting you to a representative."
+    },
+    {
+      "t": "2:03",
+      "speaker": "PGAI AGENT",
+      "text": "Please wait."
+    },
+    {
+      "t": "2:05",
+      "speaker": "PATIENT (bot)",
+      "text": "Oh, uh, actually, real quick\u2014I wanted to talk about something now."
+    },
+    {
+      "t": "2:09",
+      "speaker": "PGAI AGENT",
+      "text": "Hello, you've reached the pretty good AI test line."
+    },
+    {
+      "t": "2:09",
+      "speaker": "PGAI AGENT",
+      "text": "Goodbye."
+    },
+    {
+      "t": "2:10",
+      "speaker": "PATIENT (bot)",
+      "text": "Wait\u2014hold on, this is actually really important. I\u2019ve been having some serious leg pain after my hip surgery."
+    }
+  ]
+}

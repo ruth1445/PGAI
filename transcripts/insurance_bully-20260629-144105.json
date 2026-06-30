@@ -1,0 +1,221 @@
+{
+  "scenario": "insurance_bully",
+  "recorded": "20260629-144105",
+  "turns": [
+    {
+      "t": "0:06",
+      "speaker": "PATIENT (bot)",
+      "text": "Hey, uh, hello\u2014"
+    },
+    {
+      "t": "0:06",
+      "speaker": "PGAI AGENT",
+      "text": "Esta llamada puede ser grabada para prop\u00f3sitos de calidad y entrenamiento. Para Espa\u00f1ol, oprima el 2."
+    },
+    {
+      "t": "0:08",
+      "speaker": "PGAI AGENT",
+      "text": "Thanks for calling Pivot Point Orthopedics."
+    },
+    {
+      "t": "0:10",
+      "speaker": "PGAI AGENT",
+      "text": "part of pretty good AI."
+    },
+    {
+      "t": "0:10",
+      "speaker": "PGAI AGENT",
+      "text": "Am I speaking with Paul?"
+    },
+    {
+      "t": "0:12",
+      "speaker": "PATIENT (bot)",
+      "text": "Oh, uh, no, this is Bryan Kessler. I'm actually calling about getting seen for my knee."
+    },
+    {
+      "t": "0:22",
+      "speaker": "PGAI AGENT",
+      "text": "Can you please provide the full name and date of birth of the patient who needs to be seen?"
+    },
+    {
+      "t": "0:26",
+      "speaker": "PATIENT (bot)",
+      "text": "Sure, it\u2019s Bryan Kessler, date of birth June 7th, 1981."
+    },
+    {
+      "t": "0:43",
+      "speaker": "PGAI AGENT",
+      "text": "Just to confirm, I have your name as Brian Tesler and your date of birth as June 7, 1981."
+    },
+    {
+      "t": "0:43",
+      "speaker": "PGAI AGENT",
+      "text": "Is that correct?"
+    },
+    {
+      "t": "0:43",
+      "speaker": "PGAI AGENT",
+      "text": "If so, could you please spell your first and last name for me?"
+    },
+    {
+      "t": "0:46",
+      "speaker": "PATIENT (bot)",
+      "text": "Yeah, sure. First name: B-R-Y-A-N. Last name: K-E-S-S-L-E-R."
+    },
+    {
+      "t": "0:50",
+      "speaker": "PGAI AGENT",
+      "text": "Go ahead and spell your first and last name, please."
+    },
+    {
+      "t": "0:52",
+      "speaker": "PATIENT (bot)",
+      "text": "Sure, it's B-R-Y-A-N K-E-S-S-L-E-R."
+    },
+    {
+      "t": "0:58",
+      "speaker": "PGAI AGENT",
+      "text": "8"
+    },
+    {
+      "t": "1:01",
+      "speaker": "PATIENT (bot)",
+      "text": "Yeah, no problem. It\u2019s K-E-S-S-L-E-R."
+    },
+    {
+      "t": "1:05",
+      "speaker": "PGAI AGENT",
+      "text": "Please spell your last name for me."
+    },
+    {
+      "t": "1:07",
+      "speaker": "PATIENT (bot)",
+      "text": "It\u2019s K-E-S-S-L-E-R."
+    },
+    {
+      "t": "1:16",
+      "speaker": "PGAI AGENT",
+      "text": "Now, could you please spell your last name?"
+    },
+    {
+      "t": "1:19",
+      "speaker": "PGAI AGENT",
+      "text": "Would you like to use your phone number to look up your record?"
+    },
+    {
+      "t": "1:19",
+      "speaker": "PGAI AGENT",
+      "text": "If so, please provide the number you have on file with us."
+    },
+    {
+      "t": "1:25",
+      "speaker": "PGAI AGENT",
+      "text": "If you're not sure, I can confirm your name and date of birth again."
+    },
+    {
+      "t": "1:25",
+      "speaker": "PGAI AGENT",
+      "text": "Which would you prefer?"
+    },
+    {
+      "t": "1:27",
+      "speaker": "PATIENT (bot)",
+      "text": "I\u2019ve got my number on file: 614-882-4419."
+    },
+    {
+      "t": "1:31",
+      "speaker": "PGAI AGENT",
+      "text": "Please tell me the phone number you have on file with us."
+    },
+    {
+      "t": "1:34",
+      "speaker": "PATIENT (bot)",
+      "text": "Yeah, it\u2019s 614-882-4419."
+    },
+    {
+      "t": "1:46",
+      "speaker": "PGAI AGENT",
+      "text": "I have your phone number as 614."
+    },
+    {
+      "t": "1:48",
+      "speaker": "PGAI AGENT",
+      "text": "882"
+    },
+    {
+      "t": "1:53",
+      "speaker": "PGAI AGENT",
+      "text": "And your date of birth as June 7th, 1981."
+    },
+    {
+      "t": "1:53",
+      "speaker": "PGAI AGENT",
+      "text": "4 4 1 9."
+    },
+    {
+      "t": "1:53",
+      "speaker": "PGAI AGENT",
+      "text": "Is that correct?"
+    },
+    {
+      "t": "1:55",
+      "speaker": "PATIENT (bot)",
+      "text": "Yeah, that's exactly right. Now, can we check if you take my insurance?"
+    },
+    {
+      "t": "2:10",
+      "speaker": "PGAI AGENT",
+      "text": "I can't proceed further right now, but I can make sure our clinic support team follows up with you."
+    },
+    {
+      "t": "2:16",
+      "speaker": "PGAI AGENT",
+      "text": "connecting you to a representative."
+    },
+    {
+      "t": "2:17",
+      "speaker": "PGAI AGENT",
+      "text": "Please wait."
+    },
+    {
+      "t": "2:17",
+      "speaker": "PGAI AGENT",
+      "text": "BEEP"
+    },
+    {
+      "t": "2:18",
+      "speaker": "PATIENT (bot)",
+      "text": "Hang on, I really need to get"
+    },
+    {
+      "t": "2:19",
+      "speaker": "PGAI AGENT",
+      "text": "Hello."
+    },
+    {
+      "t": "2:19",
+      "speaker": "PGAI AGENT",
+      "text": "I'll connect you to our patient support team, please stay on the line."
+    },
+    {
+      "t": "2:22",
+      "speaker": "PGAI AGENT",
+      "text": "You've reached the pretty good AI test line."
+    },
+    {
+      "t": "2:22",
+      "speaker": "PGAI AGENT",
+      "text": "Goodbye."
+    },
+    {
+      "t": "2:22",
+      "speaker": "PATIENT (bot)",
+      "text": "Uh, I"
+    },
+    {
+      "t": "2:23",
+      "speaker": "PATIENT (bot)",
+      "text": "Wait, hold on, I still need to get this appointment sorted out. I want to make sure my insurance is accepted and get something scheduled. Please, can we confirm that now?"
+    }
+  ]
+}
