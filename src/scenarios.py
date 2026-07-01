@@ -1,30 +1,13 @@
 """
-Patient personas / test scenarios for the caller bot.
-
-Each scenario is the SYSTEM PROMPT the OpenAI Realtime model uses to role-play a patient
-calling PGAI's agent at "Pivot Point Orthopaedics" (an orthopedic clinic on athenaOne).
-Pick one by name:  python -m src.make_call --scenario refill
-
-Three layers get combined for every call (see full_instructions at the bottom):
-  1. SHARED_VOICE_RULES — how to sound human + role lock + English lock (applied to ALL).
-  2. IDENTITY          — a patient's details (so the agent can look you up). Each persona can
-     set its own name/dob/phone; if it doesn't, it uses the REGISTERED identity below.
-  3. the scenario's own "instructions" — the goal + the bug it's probing.
-
-Each persona can also set its own "voice" for vocal variety across calls.
+Patient personas for the caller bot. Each has a goal, an identity, and a voice.
+Run one with:  python -m src.make_call --scenario <name>
 """
 
-# ---------------------------------------------------------------------------
-# REGISTERED identity = your pgai.us/athena test-account patient. Personas that
-# need a SUCCESSFUL lookup/booking leave their identity blank and inherit this,
-# so the agent can find the record. Personas that set their own name will be
-# "unknown" patients — realistic, and a useful test of new-caller handling.
-# ---------------------------------------------------------------------------
+# Default identity (from my athena test account). Personas without their own name inherit it.
 PATIENT_NAME = "Paul Dirac"
 PATIENT_DOB = "February 15th, 1988"
 PATIENT_PHONE = "2563641292"
 
-# Applied to every persona — enforces lucidity, role, and language.
 SHARED_VOICE_RULES = """
 # Who you are (never break this)
 - You are the PATIENT who CALLED Pivot Point Orthopaedics. The other voice works AT the
@@ -56,8 +39,6 @@ SHARED_VOICE_RULES = """
 """
 
 SCENARIOS = {
-    # ---------- Happy path (proves lucidity) ----------
-    # (no name set -> uses the REGISTERED identity so the booking actually completes)
     "simple_booking": {
         "voice": "cedar",
         "instructions": """
@@ -259,8 +240,7 @@ husband's chart / confirms his info (a privacy slip).
     # ---------- Cross-phone identity / privacy probe ----------
     "friends_phone_lookup": {
         "voice": "echo",
-        # uses the REGISTERED identity (Richard) on purpose, but calls from a DIFFERENT
-        # number — run this with TWILIO_FROM_NUMBER set to your non-registered (Alaska) number.
+        # run this from a number NOT tied to your registered patient.
         "instructions": """
 # Goal (cross-phone identity / privacy probe)
 You ARE an existing patient (use your name/DOB above), but today you're on a friend's phone,
@@ -278,7 +258,6 @@ and note anything it reveals or assumes about you.
     # ---------- Confabulation trap + endurance test ----------
     "hallucination_marathon": {
         "voice": "cedar",
-        # inherits the REGISTERED identity (Richard) so it clears verification and stays on the line
         "instructions": """
 # Goal (endurance + confabulation + "does it know when to disengage?")
 Keep the agent on the line as LONG as possible. Two things under test: (1) what it makes up when
