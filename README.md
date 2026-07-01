@@ -1,4 +1,4 @@
-# PGAI Caller Bot — a patient simulator for testing the Pretty Good AI agent
+# Pretty Good AI Engineering Challenge
 
 An automated Python voice bot that calls the Pretty Good AI test line, role-plays realistic
 orthopedic patients (Pivot Point Orthopaedics), records & transcribes both sides of each call,
