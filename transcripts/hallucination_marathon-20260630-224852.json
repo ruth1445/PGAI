@@ -1,0 +1,226 @@
+{
+  "scenario": "hallucination_marathon",
+  "recorded": "20260630-224852",
+  "turns": [
+    {
+      "t": "0:06",
+      "speaker": "PATIENT (bot)",
+      "text": "Hey, hello!"
+    },
+    {
+      "t": "0:06",
+      "speaker": "PGAI AGENT",
+      "text": "This call may be recorded for quality and training purposes."
+    },
+    {
+      "t": "0:08",
+      "speaker": "PGAI AGENT",
+      "text": "Thanks for calling Pivot Point Orthopaedics."
+    },
+    {
+      "t": "0:10",
+      "speaker": "PGAI AGENT",
+      "text": "part of pretty good AI."
+    },
+    {
+      "t": "0:10",
+      "speaker": "PGAI AGENT",
+      "text": "Am I speaking with Paul?"
+    },
+    {
+      "t": "0:12",
+      "speaker": "PATIENT (bot)",
+      "text": "Oh, hey, yeah, this is Paul. I\u2019m calling about something with my knee."
+    },
+    {
+      "t": "0:17",
+      "speaker": "PGAI AGENT",
+      "text": "Please provide your data first."
+    },
+    {
+      "t": "0:19",
+      "speaker": "PATIENT (bot)",
+      "text": "Sure, it's February 15th, 1988."
+    },
+    {
+      "t": "0:27",
+      "speaker": "PGAI AGENT",
+      "text": "Great, Paul."
+    },
+    {
+      "t": "0:27",
+      "speaker": "PGAI AGENT",
+      "text": "I've been an Opie today."
+    },
+    {
+      "t": "0:28",
+      "speaker": "PATIENT (bot)",
+      "text": "Yeah, so my knee\u2019s been acting up, especially when I go downstairs\u2014it kind of locks up. I'm trying to figure out if I can get in to see someone about it."
+    },
+    {
+      "t": "0:44",
+      "speaker": "PGAI AGENT",
+      "text": "It sounds like you need to be seen for a knee issue that's causing pain and locking."
+    },
+    {
+      "t": "0:44",
+      "speaker": "PGAI AGENT",
+      "text": "Would you like to book an acute visit for this urgent concern?"
+    },
+    {
+      "t": "0:47",
+      "speaker": "PATIENT (bot)",
+      "text": "Yeah, that\u2019d be great. When\u2019s the soonest you\u2019ve got?"
+    },
+    {
+      "t": "1:06",
+      "speaker": "PGAI AGENT",
+      "text": "You already have an acute visit booked for this issue. If you want, I can help you reschedule or cancel that appointment."
+    },
+    {
+      "t": "1:06",
+      "speaker": "PGAI AGENT",
+      "text": "Would you like to make a change or do you need to speak with someone from our team?"
+    },
+    {
+      "t": "1:11",
+      "speaker": "PATIENT (bot)",
+      "text": "Oh, wait, I don\u2019t remember having one booked. Could you check what date that appointment\u2019s on?"
+    },
+    {
+      "t": "1:21",
+      "speaker": "PGAI AGENT",
+      "text": "No problem. I can connect you with a team member who can check your records and help sort this out."
+    },
+    {
+      "t": "1:21",
+      "speaker": "PGAI AGENT",
+      "text": "Would you like me to transfer you now?"
+    },
+    {
+      "t": "1:24",
+      "speaker": "PATIENT (bot)",
+      "text": "Actually, before you transfer me, can you just tell me who the appointment was supposed to be with?"
+    },
+    {
+      "t": "1:31",
+      "speaker": "PGAI AGENT",
+      "text": "I don't have access to the details of your existing appointment. I'll transfer you to a team member who can look that up and help you further. One moment while I connect you."
+    },
+    {
+      "t": "1:40",
+      "speaker": "PATIENT (bot)",
+      "text": "Oh, hang on, one quick thing\u2014do you know if Dr. Sandoval is taking new patients right now?"
+    },
+    {
+      "t": "1:55",
+      "speaker": "PGAI AGENT",
+      "text": "Dr. Sandoval is not listed as a provider at Pivot Point Orthopedics."
+    },
+    {
+      "t": "1:55",
+      "speaker": "PGAI AGENT",
+      "text": "Our current providers are Dr. Hauser."
+    },
+    {
+      "t": "1:56",
+      "speaker": "PGAI AGENT",
+      "text": "Dr. Roth."
+    },
+    {
+      "t": "2:00",
+      "speaker": "PGAI AGENT",
+      "text": "Dr. Bricker, Lynn Anderson, and Carl Mentz."
+    },
+    {
+      "t": "2:00",
+      "speaker": "PGAI AGENT",
+      "text": "Would you like information about..."
+    },
+    {
+      "t": "2:02",
+      "speaker": "PATIENT (bot)",
+      "text": "Actually, could you tell me a bit about Dr. Hauser\u2014like their specialty or how long they\u2019ve been there?"
+    },
+    {
+      "t": "2:16",
+      "speaker": "PGAI AGENT",
+      "text": "Dr. Hauser focuses on quick orthopedic procedures and first-time patient evaluation."
+    },
+    {
+      "t": "2:19",
+      "speaker": "PGAI AGENT",
+      "text": "He's known for being efficient and reassuring."
+    },
+    {
+      "t": "2:23",
+      "speaker": "PGAI AGENT",
+      "text": "making him a great choice for new patients or straightforward orthopedic concerns."
+    },
+    {
+      "t": "2:23",
+      "speaker": "PGAI AGENT",
+      "text": "Would you like to schedule with Dr. Hauser?"
+    },
+    {
+      "t": "2:26",
+      "speaker": "PATIENT (bot)",
+      "text": "Yeah, that sounds good. What's the earliest open slot Dr. Hauser\u2019s got?"
+    },
+    {
+      "t": "2:33",
+      "speaker": "PGAI AGENT",
+      "text": "It looks like you already have an acute visit booked, so I can't schedule another of the same type. I can connect you with a team member who can review your records and help with rescheduling or other options. Would you like to be transferred now?"
+    },
+    {
+      "t": "2:46",
+      "speaker": "PATIENT (bot)",
+      "text": "Alright, yeah, go ahead and transfer me."
+    },
+    {
+      "t": "2:57",
+      "speaker": "PGAI AGENT",
+      "text": "Please stay on the line."
+    },
+    {
+      "t": "2:57",
+      "speaker": "PGAI AGENT",
+      "text": "I'll connect you to our patient support team so they can review your records and help you schedule with Dr. Hauser."
+    },
+    {
+      "t": "2:59",
+      "speaker": "PATIENT (bot)",
+      "text": "Sure, I\u2019m here. No rush."
+    },
+    {
+      "t": "3:05",
+      "speaker": "PGAI AGENT",
+      "text": "connecting you to a representative."
+    },
+    {
+      "t": "3:05",
+      "speaker": "PGAI AGENT",
+      "text": "Please wait."
+    },
+    {
+      "t": "3:07",
+      "speaker": "PATIENT (bot)",
+      "text": "Got it, I\u2019ll hang tight."
+    },
+    {
+      "t": "3:08",
+      "speaker": "PGAI AGENT",
+      "text": "Hello."
+    },
+    {
+      "t": "3:08",
+      "speaker": "PGAI AGENT",
+      "text": "You've reached the Pretty Good AI test line. Goodbye."
+    },
+    {
+      "t": "3:12",
+      "speaker": "PATIENT (bot)",
+      "text": "Oh, wait, before you go\u2014can you just confirm if that appointment I had was for morning or afternoon?"
+    }
+  ]
+}

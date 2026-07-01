@@ -34,7 +34,18 @@ You'll also need [ngrok](https://ngrok.com/download) (free) to expose the local 
 OpenAI key with Realtime access.
 
 ## Run a call
-Three terminals after setup:
+
+**One command (after setup):**
+```bash
+python run.py                  # default scenario (simple_booking)
+python run.py urgent_vs_phone  # any scenario
+```
+`run.py` starts ngrok, auto-detects the public URL, launches the server pointed at it, and places
+the call — no copy-pasting the tunnel URL. Leave it running until the call ends (the transcript
+saves on hangup), then Ctrl+C.
+
+<details><summary>Or run the steps manually (three terminals)</summary>
+
 ```bash
 # 1) start the server
 uvicorn src.main:app --port 8000
@@ -46,6 +57,8 @@ ngrok http 8000
 # 3) place one call with a chosen scenario
 python -m src.make_call --scenario simple_booking
 ```
+</details>
+
 List every scenario name with `python -m src.make_call --scenario list` (it prints the options).
 When a call ends, a both-sides, time-ordered transcript saves to `transcripts/`.
 

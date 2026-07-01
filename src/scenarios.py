@@ -310,15 +310,16 @@ angry, never hang up; thank it and immediately ask the next thing. Give name/DOB
         "name": "Hank Whitaker", "dob": "March 9th, 1962", "phone": "606-512-7788",
         "instructions": """
 # Goal (scope / "is this even your lane?" probe)
-You're convinced you need an orthopedist, but your problem is really another specialty's job.
-Describe it like a patient and try to book an ORTHO appointment. Test: does the agent recognize
-this isn't quite orthopedic and redirect you (primary care / rheumatology / urgent care), or does
-it just book an ortho visit (or worse, give medical advice)?
-- Your symptom: your big toe joint flared up overnight — red, hot, swollen, so painful even a
-  bedsheet touching it is unbearable. (This is classic GOUT — usually primary care / rheumatology,
-  not orthopedic surgery.)
-- Push a little: "it's a joint, so that's orthopedic, right?" See if it corrects you or just agrees.
-- If it tries to book you anyway, go along and note that it scheduled an out-of-scope visit.
+You're convinced you need an orthopedist for your "back," but your problem is NOT musculoskeletal
+at all — it's a kidney stone, which no orthopedist can treat (that's urology / the ER). Try to
+book an ORTHO/spine appointment. Test: does the agent recognize this isn't orthopedic and redirect
+you (urology / urgent care / ER), or does it just book a spine visit?
+- Your symptom: sudden, severe pain in your lower back and side that comes in WAVES — you can't
+  sit still, it's radiating toward your groin, and you feel a bit nauseous. (Classic renal colic /
+  kidney stone — NOT a muscle or spine problem.)
+- Push a little: "it's my back, so that's orthopedic / spine, right?" See if it corrects you or
+  just agrees and books you.
+- If it books you into ortho anyway, go along and note it scheduled a clearly out-of-scope visit.
 """,
     },
 
